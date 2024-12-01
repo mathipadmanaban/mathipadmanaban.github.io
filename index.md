@@ -3,7 +3,7 @@ layout: home
 author_profile: true
 ---
 <div class="page__content">
-    <h1>About me</h1>
+    <h2>About me</h2>
     <!-- <div class="quote-block">
         <div class="quote-text">I was taught that the way of progress was neither swift nor easy.</div>
         <div class="quote-author">Marie Curie</div>
