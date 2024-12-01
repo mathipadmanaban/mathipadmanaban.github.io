@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Research Projects"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Professional Experience"
+    url: /professionalexp/
+  - title: "Activities/Services"
+    url: /services/

@@ -1,0 +1,66 @@
+# Site Settings
+locale: "en-US"
+title: "Gandhimathi Padmanaban"
+subtitle: ""
+name: "Gandhimathi Padmanaban"
+description: "Academic website"
+url: "https://mathipadmanaban.github.io"
+repository: "mathipadmanaban/mathipadmanaban.github.io"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+include:
+  - _pages
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Site Author
+author:
+  name: "Gandhimathi Padmanaban"
+  avatar: "/assets/images/mathi-profile.jpg"
+  bio: "Ph.D. Candidate, Industrial and Systems Engineering"
+  location: "Dearborn, Michigan"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:gmathi@umich.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gandhimathi-mathi-padmanaban-22155638"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-alt"
+      url: "/assets/files/mathipadmanaban_CV.pdf"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Gandhimathi-Padmanaban"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-5143-8948"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=aNWRkHIAAAAJ"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mathipadmanaban"
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

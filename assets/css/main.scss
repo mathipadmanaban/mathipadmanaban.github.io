@@ -1,0 +1,433 @@
+---
+---
+
+@charset "utf-8";
+
+// Custom variables
+$background-color: #ffffff;
+$text-color: #2c3e50;
+$primary-color: #34495e;
+$accent-color: #3498db;
+$light-gray: #f5f6fa;
+$border-color: #e1e4e8;
+
+// Typography
+$font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+$font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+// Import Minimal Mistakes theme
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// Base styles
+body {
+    font-family: $font-family-sans;
+    font-size: 14px;
+    line-height: 1.65;
+    color: $text-color;
+    background-color: $background-color;
+  }
+  
+  // Headers
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary-color;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 0.5em 0
+  }
+  
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.5em; }
+  h3 { font-size: 1.25em; }
+  
+  // Links
+  a {
+    color: $accent-color;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    
+    &:hover {
+      color: darken($accent-color, 15%);
+      text-decoration: none;
+    }
+  }
+  
+  // Content containers
+  .archive, .page{    
+    padding-right: 50px;
+  }
+  .page__content {
+    p {
+      margin-bottom: 1em;
+    }
+    
+    ul, ol {
+      padding-left: 1.5em;
+      margin-bottom: 1.3em;
+    }
+  }
+  
+  // Author sidebar
+  .author__avatar {
+    img {
+      max-width: 175px;
+      border-radius: 50%;
+      border: 3px solid $border-color;
+    }
+  }
+  
+  .author__content {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  // Navigation
+  .greedy-nav {
+    background: $background-color;
+    
+    a {
+      color: $primary-color;
+      font-weight: 500;
+      
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+
+  .education-list {
+    margin: 1.5em 0;
+    
+    .education-item {
+      margin-bottom: 1.5em;
+      padding-left: 1em;
+      border-left: 2px solid $accent-color;
+      
+      .degree {
+        font-weight: 600;
+        color: $primary-color;
+      }
+      
+      .institution, .year {
+        font-size: 0.9em;
+        color: $text-color;
+      }
+      .year {
+        font-size: 0.85em;
+        color: darken($border-color, 30%);
+      }
+    }
+  }
+
+  .certification-list {
+    
+    .cert-item {
+      padding: 0.5em 0;
+      
+      .cert-name {
+        color: $primary-color;
+        font-weight: 500;
+      }
+      
+      .cert-issuer {
+        font-size: 0.9em;
+        color: $text-color;
+      }
+      
+      .cert-date {
+        font-size: 0.85em;
+        color: darken($border-color, 30%);
+      }
+    }
+  }
+
+  .publications {
+    margin: 1em 0;
+  
+    .pub-item {
+      margin-bottom: 1.2em;
+      
+      .pub-title {
+        color: $primary-color;
+        font-weight: 500;
+      }
+  
+      .pub-authors {
+        font-size: 0.9em;
+        margin: 0.2em 0;
+        
+        .highlight-author {
+          color: $accent-color;
+          font-weight: 500;
+        }
+      }
+  
+      .pub-venue {
+        font-size: 0.85em;
+        color: darken($border-color, 30%);
+      }
+    }
+  }
+
+  .current-research {
+    margin: 1.5em 0;
+    padding: 1em;
+    background-color: $light-gray;
+    
+    .research-title {
+      color: $primary-color;
+      font-weight: 600;
+      margin-bottom: 0.5em;
+    }
+    
+    .research-desc {
+      font-size: 0.95em;
+      color: $text-color;
+    }
+  }
+  
+  .projects {
+    margin: 1.5em 0;
+    
+    .project-item {
+      margin-bottom: 1.5em;
+      
+      .project-title {
+        color: $primary-color;
+        font-weight: 500;
+        margin-bottom: 0.3em;
+      }
+      
+      .project-desc {
+        font-size: 0.9em;
+        color: $text-color;
+      }
+      
+      .project-links {
+        margin-top: 0.5em;
+        font-size: 0.85em;
+        
+        a {
+          color: $accent-color;
+          margin-right: 1em;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .teaching-experience {
+    margin: 1em 0;
+    
+    .teaching-item {
+      margin-bottom: 1.2em;
+      
+      .event-title {
+        color: $primary-color;
+        font-weight: 500;
+      }
+      
+      .event-details {
+        font-size: 0.9em;
+        color: $text-color;
+        margin: 0.2em 0;
+      }
+      
+      .event-date {
+        font-size: 0.85em;
+        color: darken($border-color, 30%);
+      }
+    }
+  }
+
+  .experience {
+    margin: 1em 0;
+    
+    .exp-item {
+      margin-bottom: 1.5em;
+      
+      .role {
+        color: $primary-color;
+        font-weight: 500;
+      }
+      
+      .company {
+        font-size: 0.95em;
+        color: $text-color;
+        margin: 0.2em 0;
+      }
+      
+      .duration {
+        font-size: 0.85em;
+        color: darken($border-color, 30%);
+        margin-bottom: 0.3em;
+      }
+      
+      .responsibilities {
+        margin-left: 1em;
+        
+        li {
+          font-size: 0.9em;
+          color: $text-color;
+          margin-bottom: 0.2em;
+        }
+      }
+    }
+  }
+
+  .professional-activities {
+    margin: 1em 0;
+    
+    .activity-group {
+      margin-bottom: 1.5em;
+      
+      .group-title {
+        color: $primary-color;
+        font-weight: 500;
+        margin-bottom: 0.8em;
+      }
+      
+      .activity-list {
+        margin-left: 1em;
+        
+        .activity-item {
+          font-size: 0.9em;
+          color: $text-color;
+          margin-bottom: 0.5em;
+          
+          .activity-date {
+            font-size: 0.85em;
+            color: darken($border-color, 30%);
+          }
+        }
+      }
+    }
+  }
+  
+  .research-highlight {
+    background-color: $light-gray;
+    padding: 1.5em;
+    border-radius: 4px;
+    margin: 1em 0;
+  }
+
+  .quote-block {
+    position: relative;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: $light-gray;
+    border-left: 4px solid $accent-color;
+    font-style: italic;
+    
+    &::before {
+      content: '"';
+      position: absolute;
+      top: 0;
+      left: 10px;
+      font-size: 1.2em;
+      color: $accent-color;
+      opacity: 0.3;
+    }
+    
+    .quote-text {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 0.5em;
+    }
+    
+    .quote-author {
+      font-size: 0.6em;
+      color: $primary-color;
+      text-align: right;
+      font-style: normal;
+      
+      &::before {
+        content: "— ";
+      }
+    }
+  }
+  
+  .interests-list {    
+    li {
+      color: $primary-color;
+      margin-bottom: 0.3em;
+      font-size: 0.95em;
+    }
+  }
+
+  #contact {
+    margin: 1.5em;
+    p{
+      font-size: 0.90em;
+    }
+  }
+
+  // Code blocks
+  code {
+    font-family: $font-family-mono;
+    font-size: 0.9em;
+    background: $light-gray;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+  }
+  
+  // Tables
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    
+    th, td {
+      padding: 0.5em;
+      border: 1px solid $border-color;
+    }
+    
+    th {
+      background-color: $light-gray;
+      font-weight: 600;
+    }
+  }
+  
+  // Buttons and links
+  .btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background-color: $accent-color;
+      color: white;
+    }
+  }
+  
+  // Responsive adjustments
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 15px;
+    }
+    
+    .author__avatar img {
+      max-width: 150px;
+    }
+  }
+  
+  // Footer
+  .page__footer {
+    background-color: $primary-color;
+    color: white;
+    font-size: 0.9em;
+    
+    a {
+      color: lighten($accent-color, 25%);
+      
+      &:hover {
+        color: white;
+      }
+    }
+  }
