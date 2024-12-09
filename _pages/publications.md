@@ -32,25 +32,25 @@ author_profile: true
   </div>
 
   <h2>Working Papers</h2>
-  <div class="pub-item">
+  <!-- <div class="pub-item">
     <div class="pub-title">Using High-Resolution Lidar to Study Cycling Safety - Automatic Distance Estimation of Passing Vehicles via Machine Learning</div>
     <div class="pub-authors">
       Moustafa, Rayane and Feng, Fred and <span class="highlight-author">Gandhimathi Padmanaban</span>
     </div>
     <div class="pub-venue">(TBD), 2024</div>
-  </div>
+  </div> -->
   <div class="pub-item">
-    <div class="pub-title">Intelligent Vehicle Lane Change System using Temporal Convolutional Networks: A Foundational Approach with Open-source Implementation</div>
-    <div class="pub-authors">
+    <div class="pub-title">HybridLaneNet: Physics-Informed TCN for Safe Lane Change Behavior Modeling</div>
+    <!-- <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Murphey, Yi Lu
     </div>
-    <div class="pub-venue">(TBD), 2024</div>
+    <div class="pub-venue">(TBD), 2024</div> -->
   </div>
   <div class="pub-item">
     <div class="pub-title">Mixed Methods Study on Data Privacy in Messenger Applications: A Comparison between WhatsApp and Signal</div>
-    <div class="pub-authors">
+    <!-- <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Shandi, Hala and Garrett and Zhou, Feng
     </div>
-    <div class="pub-venue">(TBD), 2024</div>
+    <div class="pub-venue">(TBD), 2024</div> -->
   </div>
 </div>
