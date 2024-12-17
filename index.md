@@ -26,7 +26,7 @@ author_profile: true
         <div class="education-item">
             <div class="degree">Ph.D. in Industrial and Systems Engineering</div>
             <div class="institution">University of Michigan-Dearborn and Rackham Graduate School</div>
-            <div class="year">Expected: Aug 2025</div>
+            <div class="year">Expected: Apr 2026</div>
         </div>
         <div class="education-item">
             <div class="degree">M.S. in Human Centered Design and Engineering</div>
@@ -55,10 +55,11 @@ author_profile: true
     <h2>Research Interests</h2>
     <div class="interests-list">
         <ul>
-            <li class="interest-item">Machine learning and human factors approaches for transportation safety, efficiency and sustainability</li>
-            <li class="interest-item">Data-driven behavioral prediction models</li>
-            <li class="interest-item">Scientific machine learning applications in computational behavioral modeling</li>
+            <li class="interest-item">Machine learning and human factors approaches to enhance transportation safety, efficiency, and sustainability.</li>
+            <li class="interest-item">Data-driven modeling and prediction of human behavior in complex environments.</li>
+            <li class="interest-item">Scientific machine learning applications for robust, interpretable, and scalable behavioral modeling.</li>
             <li class="interest-item">Human-centered design principles for intelligent autonomous systems</li>
+            <li class="interest-item">Integration of multi-modal sensing technologies to advance autonomous system capabilities.a</li>
         </ul>
     </div>
 </div>

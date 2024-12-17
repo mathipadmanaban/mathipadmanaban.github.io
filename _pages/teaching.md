@@ -26,10 +26,15 @@ author_profile: true
     <div class="event-details">[WOC] Code - University of Michigan, Ann Arbor</div>
     <div class="event-date">May 2023</div>
   </div>
-  <h2>Guest Lecture</h2>
+  <h2>Presentations and Talks</h2>
   <div class="teaching-item">
-    <div class="event-title">Talk on: "An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers"</div>
+    <div class="event-title">"An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers"</div>
     <div class="event-details">IMSE 501 Human Factors & Ergonomics @ University of Michigan-Dearborn</div>
-    <div class="event-date">Fall 2021</div>
+    <div class="event-date">2021</div>
+  </div>
+  <div class="teaching-item">
+    <div class="event-title">"An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers"</div>
+    <div class="event-details">Automotive User Interfaces (Auto UI) Conference</div>
+    <div class="event-date">2021</div>
   </div>
 </div>
