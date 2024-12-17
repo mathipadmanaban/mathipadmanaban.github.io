@@ -16,7 +16,7 @@ author_profile: true
         <div class="quote-text">Some people call this artificial intelligence, but the reality is this technology will enhance us. So instead of artificial intelligence, I think we'll augment our intelligence.</div>
         <div class="quote-author">Ginni Rometty</div>
     </div>
-    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering with a deep passion for science, engineering and problem-solving. My journey as an international scholar and first-generation graduate has shaped my unique approach to research, bringing diverse perspectives to engineering solutions. Beyond the lab, I'm a mother of two young boys, balancing the excitement of research innovation with the joy of raising curious minds. :) </p>
+    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering with a deep passion for science, engineering and problem-solving. My journey as an international scholar and first-generation graduate has shaped my unique approach to research, bringing diverse perspectives to engineering solutions. Beyond my research, I'm a mother of two young boys, balancing the excitement of research innovation with the joy of raising curious minds. :) </p>
     <div class="quote-block">
         <div class="quote-text">The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.</div>
         <div class="quote-author">Martin Luther King Jr.</div>
