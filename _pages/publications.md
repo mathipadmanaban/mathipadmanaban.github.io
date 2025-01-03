@@ -19,7 +19,7 @@ author_profile: true
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Feng, Fred and Dai, Edward and Saini, Ankit and Hu, Guopeng and Zhao, Yanan
     </div>
-    <div class="pub-venue">(SAE WCX Technical Paper), 2025</div>
+    <div class="pub-venue">SAE WCX Technical Paper (Accepted), 2025</div>
   </div>
 
   <h2>Papers Under Review</h2>
@@ -28,7 +28,7 @@ author_profile: true
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Feng, Fred and Dai, Edward and Saini, Ankit and Hu, Guopeng and Zhao, Yanan
     </div>
-    <div class="pub-venue">(IEEE Transactions on Intelligent Transportation Systems), 2025</div>
+    <div class="pub-venue">IEEE Transactions on Intelligent Transportation Systems (Submitted), 2025</div>
   </div>
 
   <h2>Working Papers</h2>
