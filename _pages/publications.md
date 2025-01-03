@@ -14,6 +14,13 @@ author_profile: true
     </div>
     <div class="pub-venue">AutomotiveUI '21 Adjunct: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications, Association for Computing Machinery, 2021, pp. 142–147.</div>
   </div>
+  <div class="pub-item">
+    <div class="pub-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
+    <div class="pub-authors">
+      <span class="highlight-author">Gandhimathi Padmanaban</span> and Feng, Fred and Dai, Edward and Saini, Ankit and Hu, Guopeng and Zhao, Yanan
+    </div>
+    <div class="pub-venue">(SAE WCX Technical Paper), 2025</div>
+  </div>
 
   <h2>Papers Under Review</h2>
   <div class="pub-item">
@@ -21,24 +28,17 @@ author_profile: true
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Feng, Fred and Dai, Edward and Saini, Ankit and Hu, Guopeng and Zhao, Yanan
     </div>
-    <div class="pub-venue">(TBD), 2024</div>
-  </div>
-  <div class="pub-item">
-    <div class="pub-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
-    <div class="pub-authors">
-      <span class="highlight-author">Gandhimathi Padmanaban</span> and Feng, Fred and Dai, Edward and Saini, Ankit and Hu, Guopeng and Zhao, Yanan
-    </div>
-    <div class="pub-venue">(TBD), 2024</div>
+    <div class="pub-venue">(IEEE Transactions on Intelligent Transportation Systems), 2025</div>
   </div>
 
   <h2>Working Papers</h2>
-  <!-- <div class="pub-item">
+  <div class="pub-item">
     <div class="pub-title">Using High-Resolution Lidar to Study Cycling Safety - Automatic Distance Estimation of Passing Vehicles via Machine Learning</div>
-    <div class="pub-authors">
+    <!-- <div class="pub-authors">
       Moustafa, Rayane and Feng, Fred and <span class="highlight-author">Gandhimathi Padmanaban</span>
     </div>
-    <div class="pub-venue">(TBD), 2024</div>
-  </div> -->
+    <div class="pub-venue">(TBD), 2024</div> -->
+  </div>
   <div class="pub-item">
     <div class="pub-title">HybridLaneNet: Physics-Informed TCN for Safe Lane Change Behavior Modeling</div>
     <!-- <div class="pub-authors">
