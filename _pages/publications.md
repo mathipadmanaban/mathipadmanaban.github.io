@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 <div class="publications">
-  <h2>Conference Proceedings</h2>
+  <h2>Refereed Conference Proceedings</h2>
   <div class="pub-item">
     <div class="pub-title">An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers
     <span><a href="https://doi.org/https://doi.org/10.1145/3473682.3480282" target="_blank">[Link]</a></span></div>
