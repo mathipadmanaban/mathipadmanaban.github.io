@@ -5,11 +5,11 @@ layout: single
 author_profile: true
 ---
 
-<!-- <div class="current-research">
+<div class="current-research">
   <h2>Current Research</h2>
   <div class="research-title">Smart Detection of Vehicle Overtaking Maneuvers for Cycling Safety</div>
   <div class="research-desc">Developing a deep learning-based computer vision system for automated detection of vehicle overtaking events using data from specialized research bicycle. The system leverages advanced computer vision object detection and tracking algorithms to identify and track vehicles, while employing geometric angle analysis to validate genuine overtaking maneuvers. The project includes real-time visualization capabilities and comprehensive event logging, contributing to the further down-stream applications on understanding of vehicle-cyclist interactions in urban environments.</div>
-</div> -->
+</div>
 
 <div class="projects">
   <h2>Dissertation Projects</h2>

@@ -26,7 +26,7 @@ author_profile: true
         <div class="education-item">
             <div class="degree">Ph.D. in Industrial and Systems Engineering</div>
             <div class="institution">University of Michigan-Dearborn and Rackham Graduate School</div>
-            <div class="year">Expected: Apr 2026</div>
+            <div class="year">Expected: Aug 2025</div>
         </div>
         <div class="education-item">
             <div class="degree">M.S. in Human Centered Design and Engineering</div>

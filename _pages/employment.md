@@ -11,9 +11,9 @@ author_profile: true
     <div class="duration">Jan 2022 – Now</div>
     <div class="responsibilities">
         <ul>
-            <li>Designed and developed UI modules for Coca-Cola’s beverage dispenser machines using React.</li>
-            <li>Created an interactive online gaming platform for a UK-based company, enhancing user engagement.</li>
-            <li>Contributed to R&D projects for VR gaming and data science, mentoring development teams and enhancing application management strategies.</li>
+            <li>Utilized computer vision models to enhance transportation safety for studying driver-bicyclist interactions, especially during overtaking maneuvers.</li>
+            <li>Engineered a custom machine learning modeling framework to predict driver behaviors, improving predictive accuracy and fuel economy analysis.</li>
+            <li>Conducting and authoring of the research and results into high-impact peer-reviewed journal articles on driver behavior analysis and transportation safety.</li>
         </ul>
     </div>
   </div>
@@ -55,5 +55,11 @@ author_profile: true
     <div class="role">Research / Teaching Assistant</div>
     <div class="company">UCEP-Anna University, India</div>
     <div class="duration">2011 - 2013</div>
+    <div class="responsibilities">
+      <ul>
+        <li>Led the development of multiple university management systems, including exam cell software and leave management systems.</li>
+        <li>Directed user research, prototyping, design, development, and deployment phases, resulting in highly efficient and user-friendly systems.</li>
+      </ul>
+    </div>
   </div>
 </div>
