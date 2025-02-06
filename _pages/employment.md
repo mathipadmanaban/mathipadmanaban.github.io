@@ -1,10 +1,22 @@
 ---
-layout: professionalexp
-permalink: /professionalexp/
+layout: employment
+permalink: /employment/
 layout: single
 author_profile: true
 ---
 <div class="experience">
+  <div class="exp-item">
+    <div class="role">Graduate Student Research Assistant</div>
+    <div class="company">University of Michigan-Dearborn, USA</div>
+    <div class="duration">Jan 2022 – Now</div>
+    <div class="responsibilities">
+        <ul>
+            <li>Designed and developed UI modules for Coca-Cola’s beverage dispenser machines using React.</li>
+            <li>Created an interactive online gaming platform for a UK-based company, enhancing user engagement.</li>
+            <li>Contributed to R&D projects for VR gaming and data science, mentoring development teams and enhancing application management strategies.</li>
+        </ul>
+    </div>
+  </div>
   <div class="exp-item">
     <div class="role">Consultant/UI Development Lead</div>
     <div class="company">Deloitte (Offices of the US) – Bangalore, India</div>
@@ -38,5 +50,10 @@ author_profile: true
             <li>Created custom tools for event space reservation and internal company web portals, enhancing operational efficiency.</li>
         </ul>
     </div>
+  </div>
+  <div class="exp-item">
+    <div class="role">Research / Teaching Assistant</div>
+    <div class="company">UCEP-Anna University, India</div>
+    <div class="duration">2011 - 2013</div>
   </div>
 </div>

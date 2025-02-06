@@ -42,6 +42,11 @@ author_profile: true
     <h2>Certifications</h2>
     <div class="certification-list">
         <div class="cert-item">
+            <div class="cert-name"><a href='https://ccat.umtri.umich.edu/education/cat-certificate/'>Connected and Automated Transportation Certificate</a></div>
+            <div class="cert-issuer">Center for Connected and Automated Transportation</div>
+            <div class="cert-date">Expected: Aug 2025</div>
+        </div>
+        <div class="cert-item">
             <div class="cert-name"><a href='https://rackham.umich.edu/professional-development/dei-certificate/'>Rackham Professional Development Diversity, Equity, and Inclusion Certificate</a></div>
             <div class="cert-issuer">Rackham Graduate School - University of Michigan</div>
             <div class="cert-date">Expected: Apr 2025</div>
@@ -55,11 +60,45 @@ author_profile: true
     <h2>Research Interests</h2>
     <div class="interests-list">
         <ul>
-            <li class="interest-item">Machine learning and human factors approaches to enhance transportation safety, efficiency, and sustainability.</li>
-            <li class="interest-item">Data-driven modeling and prediction of human behavior in complex environments.</li>
-            <li class="interest-item">Scientific machine learning applications for robust, interpretable, and scalable behavioral modeling.</li>
-            <li class="interest-item">Human-centered design principles for intelligent autonomous systems</li>
-            <li class="interest-item">Integration of multi-modal sensing technologies to advance autonomous system capabilities.a</li>
+            <li class="interest-item">Application of advanced machine learning and behavioral data analytics for transportation safety.</li>
+            <li class="interest-item">Integration of human factors principles with computational models for safe, efficient and sustainable  transportation systems.</li>
+            <li class="interest-item">Interpretable physics-informed machine learning models for behavioral modeling and prediction.</li>
+            <li class="interest-item">Human-centered design frameworks for intelligent autonomous systems</li>
+            <li class="interest-item">Integration of multi-modal sensing technologies to advance autonomous systems.</li>
         </ul>
     </div>
+    <h2>Scholarships and Awards</h2>
+    <div class="awards">
+        <div class="award-item">
+            <div class="award-title">Upsilon Pi Epsilon (UPE) Scholarship 2024</div>
+            <div class="award-details">Upsilon Pi Epsilon (UPE)</div>
+            <div class="award-info">$1,000 - Awarded for exceptional academic performance, extracurricular involvement, and leadership within the computing community, 2024</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Global Finalist</div>
+            <div class="award-details">NASA Space Apps Challenge</div>
+            <div class="award-info">2023</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Irma M.Wyman Scholar</div>
+            <div class="award-details">Center for the Education ofWomen (CEW+), University of Michigan</div>
+            <div class="award-info">$11,500 - 2020-2021</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Non-Resident Graduate Student Scholar</div>
+            <div class="award-details">University of Michigan-Dearborn</div>
+            <div class="award-info">$13,000 - S2020, F2020, W2021</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Hackathon special mention</div>
+            <div class="award-details">Deloitte, India</div>
+            <div class="award-info">Opportunity to attend JSFoo by Has Geek [India’s premier JS conference] - 2017</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Runner-Up</div>
+            <div class="award-details">Syncfusion Hackathon, India</div>
+            <div class="award-info">INR 35,000 - 2015</div>
+        </div>
+    </div>
+
 </div>

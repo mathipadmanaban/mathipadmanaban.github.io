@@ -1,17 +1,24 @@
 ---
-layout: services
-permalink: /services/
+layout: outreach
+permalink: /outreach/
 layout: single
 author_profile: true
 ---
 <div class="professional-activities">
+  <h2>Membership in Societies</h2>
   <div class="activity-group">
-    <div class="group-title">Honor Societies & Professional Memberships</div>
+    <div class="group-title">Honorary</div>
     <div class="activity-list">
       <div class="activity-item">
         President, Upsilon Pi Epsilon - Michigan Beta Chapter
         <span class="activity-date">2023 - Present</span>
       </div>
+    </div>
+  </div>
+
+  <div class="activity-group">
+    <div class="group-title">Professional</div>
+    <div class="activity-list">
       <div class="activity-item">
         Member, Human Factors & Ergonomic Society (HFES) - UM-Dearborn Student Chapter
       </div>
@@ -24,8 +31,9 @@ author_profile: true
     </div>
   </div>
 
+  <h2>Services</h2>
   <div class="activity-group">
-    <div class="group-title">Reviewing Experience</div>
+    <div class="group-title">Reviewer</div>
     <div class="activity-list">
       <div class="activity-item">
         Reviewer, International ACM Conference on Automotive User Interfaces (AutoUI)
@@ -55,15 +63,15 @@ author_profile: true
   </div>
 
   <div class="activity-group">
-    <div class="group-title">Volunteer Services</div>
-    <div class="activity-list">
-      <div class="activity-item">
-        Organizer, CECS Career Panel
-        <span class="activity-date">Nov 2024</span>
-      </div>
+    <div class="group-title">Volunteer</div>
+    <div class="activity-list">    
       <div class="activity-item">
         Instructor/Mentor, WocCode - University of Michigan
         <span class="activity-date">May 2023 - Present</span>
+      </div>
+      <div class="activity-item">
+        Organizer, CECS Career Panel
+        <span class="activity-date">Nov 2024</span>
       </div>
       <div class="activity-item">
         Judge, NASA SpaceApps Challenge - Pittsburgh
@@ -82,11 +90,12 @@ author_profile: true
         <span class="activity-date">Sep 2023</span>
       </div>
       <div class="activity-item">
-        Website Design & Developer, BSE Human-Centered Engineering Design Planning Team, University of Michigan-Dearborn
+        Website Designer & Developer, BSE Human-Centered Engineering Design Planning Team, University of Michigan-Dearborn
         <span class="activity-date">2021</span>
       </div>
       <div class="activity-item">
         Tutor, Middle and high school students in mathematics, physics, chemistry, and computer science
+        <span class="activity-date">2010-2013, 2018-2020</span>
       </div>
       <div class="activity-item">
         Organizer, 2-Day International Conference for Software Professionals, ASPRO’12, UCEP - Anna University, India

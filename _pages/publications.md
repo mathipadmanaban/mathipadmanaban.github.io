@@ -15,11 +15,12 @@ author_profile: true
     <div class="pub-venue">AutomotiveUI '21 Adjunct: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications, Association for Computing Machinery, 2021, pp. 142–147.</div>
   </div>
   <div class="pub-item">
-    <div class="pub-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
+    <div class="pub-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles
+    <span><a href="https://www.sae.org/publications/technical-papers/content/2025-01-8605/" target="_blank">[Link]</a></span></div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Feng, Fred and Dai, Edward and Saini, Ankit and Hu, Guopeng and Zhao, Yanan
     </div>
-    <div class="pub-venue">SAE WCX Technical Paper (Accepted), 2025</div>
+    <div class="pub-venue">SAE Technical Paper 2025-01-8605, 2025</div>
   </div>
 
   <h2>Papers Under Review</h2>

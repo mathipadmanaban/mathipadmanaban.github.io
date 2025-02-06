@@ -358,6 +358,30 @@ body {
     }
   }
 
+  .awards {
+    margin: 1em 0;
+    
+    .award-item {
+      margin-bottom: 1.2em;
+      
+      .award-title {
+        color: $primary-color;
+        font-weight: 500;
+      }
+      
+      .award-details {
+        font-size: 0.9em;
+        color: $text-color;
+        margin: 0.2em 0;
+      }
+      
+      .award-info {
+        font-size: 0.85em;
+        color: darken($border-color, 30%);
+      }
+    }
+  }
+
   #contact {
     margin: 1.5em;
     p{

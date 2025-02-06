@@ -7,7 +7,7 @@ main:
     url: /publications/
   - title: "Teaching"
     url: /teaching/
-  - title: "Professional Experience"
-    url: /professionalexp/
-  - title: "Activities/Services"
-    url: /services/
+  - title: "Employment"
+    url: /employment/
+  - title: "Outreach"
+    url: /outreach/
