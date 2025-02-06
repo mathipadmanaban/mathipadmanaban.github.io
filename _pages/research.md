@@ -26,8 +26,8 @@ author_profile: true
     <div class="project-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
     <div class="project-desc">This research investigates the relationship between driving behavior patterns and environmental impact using real-world driving data and EPA Fuel Economy cycles. By analyzing acceleration profiles of aggressive versus non-aggressive driving, we demonstrated significant differences in fuel economy and environmental impact. The study's findings contribute to developing sustainable driving practices and evidence-based transportation policies.</div>
     <div class="project-links">
-      <!-- <a href="#" target="_blank">GitHub</a>
-      <a href="#" target="_blank">Paper</a> -->
+      <!-- <a href="#" target="_blank">GitHub</a> -->
+      <a href="https://www.sae.org/publications/technical-papers/content/2025-01-8605/" target="_blank">Paper</a>
     </div>
   </div>
 
@@ -63,7 +63,7 @@ author_profile: true
     <div class="project-desc">This project focuses on designing autonomous vehicles specifically tailored for individuals with Autism Spectrum Disorder (ASD). Through a human-centered design approach and extensive collaboration with caregivers, we developed a specialized ADS-DV (Automated Driving System - Dedicated Vehicle) prototype with customized interior design and a companion mobile application. The design addresses key needs including safety, monitoring, and individual preferences, aiming to enhance independent mobility for people with ASD.</div>
     <div class="project-links">
       <!-- <a href="#" target="_blank">GitHub</a> -->
-      <a href="https://doi.org/https://doi.org/10.1145/3473682.3480282 target="_blank"">Paper</a>
+      <a href="https://doi.org/https://doi.org/10.1145/3473682.3480282" target="_blank">Paper</a>
     </div>
   </div>
 </div>
