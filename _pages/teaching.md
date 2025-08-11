@@ -17,6 +17,11 @@ author_profile: true
     <div class="event-date">Mar 2024</div>
   </div>
   <div class="teaching-item">
+    <div class="event-title">UT Knoxville Software Carpentry Workshop - Python</div>
+    <div class="event-details">The Carpentries</div>
+    <div class="event-date">May 2025</div>
+  </div>
+  <div class="teaching-item">
     <div class="event-title">Workshop on Machine learning</div>
     <div class="event-details">[WOC] Code - University of Michigan-Ann Arbor</div>
     <div class="event-date">Feb 2024</div>
@@ -31,7 +36,7 @@ author_profile: true
     <div class="event-title">"A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving
 Styles and Fuel Economy Test Cycles"</div>
     <div class="event-details">SAE World Congress Experience(WCX) - Detroit</div>
-    <div class="event-date">Apr 2025 (Upcoming)</div>
+    <div class="event-date">Apr 2025</div>
   </div>
   <div class="teaching-item">
     <div class="event-title">"An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers"</div>

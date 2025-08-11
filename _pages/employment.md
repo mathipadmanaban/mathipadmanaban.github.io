@@ -8,12 +8,12 @@ author_profile: true
   <div class="exp-item">
     <div class="role">Graduate Student Research Assistant</div>
     <div class="company">University of Michigan-Dearborn, USA</div>
-    <div class="duration">Jan 2022 – Now</div>
+    <div class="duration">2022 – Present</div>
     <div class="responsibilities">
         <ul>
-            <li>Utilized computer vision models to enhance transportation safety for studying driver-bicyclist interactions, especially during overtaking maneuvers.</li>
-            <li>Engineered a custom machine learning modeling framework to predict driver behaviors, improving predictive accuracy and fuel economy analysis.</li>
-            <li>Conducting and authoring of the research and results into high-impact peer-reviewed journal articles on driver behavior analysis and transportation safety.</li>
+            <li>Geometry-informed overtaking detection (YOLOv5 + ByteTrack): 98.7% precision, 98.1% recall; 2.89 s early warning; validated on 319 events (41.5k frames).</li>
+            <li>Calibration-free 2D distance estimation using perspective geometry; MAE 12.6 ± 2.9 cm with cross-validation and reproducible pipelines.</li>
+            <li>Aggressive driving classification: 93.8% accuracy (Random Forest) across 556 trips; speed-adjusted jerk features; automated preprocessing and CV protocols.</li>
         </ul>
     </div>
   </div>

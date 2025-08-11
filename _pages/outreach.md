@@ -11,7 +11,7 @@ author_profile: true
     <div class="activity-list">
       <div class="activity-item">
         President, Upsilon Pi Epsilon - Michigan Beta Chapter
-        <span class="activity-date">2023 - Present</span>
+        <span class="activity-date">2024 - 2025</span>
       </div>
     </div>
   </div>
@@ -25,9 +25,11 @@ author_profile: true
       <div class="activity-item">
         Member, Association for Computing Machinery (ACM) - UM-Dearborn Student Chapter
       </div>
-      <div class="activity-item">
-        Member, Society of Women Engineers (SWE) - UM-Dearborn Student Chapter
-      </div>
+      <div class="activity-item">Member, Sigma Xi</div>
+      <div class="activity-item">Member, Upsilon Pi Epsilon (UPE)</div>
+      <div class="activity-item">Member, Alpha Pi Mu</div>
+      <div class="activity-item">Member, Association for Computing Machinery (ACM)</div>
+      <div class="activity-item">Member, Human Factors & Ergonomic Society (HFES)</div>
     </div>
   </div>
 
@@ -35,20 +37,18 @@ author_profile: true
   <div class="activity-group">
     <div class="group-title">Reviewer</div>
     <div class="activity-list">
+      <div class="activity-item">Reviewer, ICIS 2025</div>
+      <div class="activity-item">Reviewer, AutoUI 2024</div>
       <div class="activity-item">
-        Reviewer, International ACM Conference on Automotive User Interfaces (AutoUI)
+        Reviewer, Conference on Human Factors in Computing Systems (CHI)
         <span class="activity-date">2024</span>
       </div>
       <div class="activity-item">
-        Reviewer, Conference on Human Factors in Computing Systems
+        Reviewer, Americas Conference on Information Systems (AMCIS)
         <span class="activity-date">2024</span>
       </div>
       <div class="activity-item">
-        Reviewer, Americas Conference on Information Systems
-        <span class="activity-date">2024</span>
-      </div>
-      <div class="activity-item">
-        Reviewer, International ACM Conversational User Interfaces conference
+        Reviewer, International ACM Conversational User Interfaces (CUI)
         <span class="activity-date">2024</span>
       </div>
       <div class="activity-item">
@@ -65,10 +65,9 @@ author_profile: true
   <div class="activity-group">
     <div class="group-title">Volunteer</div>
     <div class="activity-list">    
-      <div class="activity-item">
-        Instructor/Mentor, WocCode - University of Michigan
-        <span class="activity-date">May 2023 - Present</span>
-      </div>
+      <div class="activity-item">Certified Lesson Maintainer, The Carpentries <span class="activity-date">May 2025 - Present</span></div>
+      <div class="activity-item">Certified Instructor, The Carpentries <span class="activity-date">2023 - Present</span></div>
+      <div class="activity-item">Instructor/Mentor, WocCode - University of Michigan <span class="activity-date">May 2023 - Present</span></div>
       <div class="activity-item">
         Organizer, CECS Career Panel
         <span class="activity-date">Nov 2024</span>

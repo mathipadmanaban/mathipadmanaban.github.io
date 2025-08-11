@@ -7,15 +7,15 @@ author_profile: true
 
 <div class="current-research">
   <h2>Current Research</h2>
-  <div class="research-title">Smart Detection of Vehicle Overtaking Maneuvers for Cycling Safety</div>
-  <div class="research-desc">Developing a deep learning-based computer vision system for automated detection of vehicle overtaking events using data from specialized research bicycle. The system leverages advanced computer vision object detection and tracking algorithms to identify and track vehicles, while employing geometric angle analysis to validate genuine overtaking maneuvers. The project includes real-time visualization capabilities and comprehensive event logging, contributing to the further down-stream applications on understanding of vehicle-cyclist interactions in urban environments.</div>
+  <div class="research-title">Geometry-Informed CV for Calibration-Free Distance Estimation</div>
+  <div class="research-desc">Perspective-geometry–informed distance estimation from monocular images with benchmarking and ablation studies. Achieved MAE 12.6 ± 2.9 cm in cross-validation; includes uncertainty and error analyses and reproducible pipelines.</div>
 </div>
 
 <div class="projects">
   <h2>Dissertation Projects</h2>
   <div class="project-item">
-    <div class="project-title">A Machine Learning Approach to Identify Aggressive Driving Patterns based on Vehicle Longitudinal Jerk</div>
-    <div class="project-desc">This research develops a machine learning approach to predict aggressive driving behaviors using vehicle jerk metrics from real-world data. We evaluated three jerk metrics and introduced a novel speed-adjusted jerk threshold method. Using a customized machine learning pipeline testing among multiple regression models, we achieved over 93% prediction accuracy finding a better model and feature set to predict aggressive driving from vehicle jerk metrics. The study's findings have significant implications for real-time driver behavior monitoring, fuel efficiency improvement, and various transportation safety applications including crash-warning systems and autonomous vehicles.</div>
+    <div class="project-title">Geometric Overtaking Detection with Early Warning</div>
+    <div class="project-desc">Geometry-informed overtaking detection and tracking (YOLOv5 + ByteTrack) with 98.7% precision, 98.1% recall, and 2.89 s early warning on 319 events (41.5k frames). Supports cyclist–vehicle safety analyses with robust event validation.</div>
     <div class="project-links">
       <!-- <a href="#" target="_blank">GitHub</a>
       <a href="#" target="_blank">Paper</a> -->
@@ -23,12 +23,18 @@ author_profile: true
   </div>
 
   <div class="project-item">
-    <div class="project-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
-    <div class="project-desc">This research investigates the relationship between driving behavior patterns and environmental impact using real-world driving data and EPA Fuel Economy cycles. By analyzing acceleration profiles of aggressive versus non-aggressive driving, we demonstrated significant differences in fuel economy and environmental impact. The study's findings contribute to developing sustainable driving practices and evidence-based transportation policies.</div>
+    <div class="project-title">Aggressive Driving: Acceleration/Deceleration Profiles vs. Fuel Economy Cycles</div>
+    <div class="project-desc">Comparative analysis of real-world aggressive driving styles vs. EPA fuel economy cycles. Results inform sustainable driving practices and policy; presented at SAE WCX 2025.</div>
     <div class="project-links">
       <!-- <a href="#" target="_blank">GitHub</a> -->
       <a href="https://www.sae.org/publications/technical-papers/content/2025-01-8605/" target="_blank">Paper</a>
     </div>
+  </div>
+
+  <div class="project-item">
+    <div class="project-title">Aggressive Driving Prediction from Longitudinal Jerk</div>
+    <div class="project-desc">Machine learning pipeline for classifying aggressive driving using speed-adjusted jerk features. Achieved 93.8% accuracy (Random Forest) across 556 trips with rigorous cross-validation.</div>
+    <div class="project-links"></div>
   </div>
 
   <h2>Master's Thesis</h2>
