@@ -52,12 +52,4 @@ author_profile: true
     </div>
     <div class="pub-venue">In preparation, 2025</div>
   </div>
-
-  <h2>Working Papers</h2>
-  <div class="pub-item">
-    <div class="pub-title">HybridLaneNet: Physics-Informed TCN for Safe Lane Change Behavior Modeling</div>
-  </div>
-  <div class="pub-item">
-    <div class="pub-title">Mixed Methods Study on Data Privacy in Messenger Applications: A Comparison between WhatsApp and Signal</div>
-  </div>
 </div>
