@@ -13,6 +13,9 @@ author_profile: true
         President, Upsilon Pi Epsilon - Michigan Beta Chapter
         <span class="activity-date">2024 - 2025</span>
       </div>
+      <div class="activity-item">Member, Sigma Xi</div>
+      <div class="activity-item">Member, Upsilon Pi Epsilon (UPE)</div>
+      <div class="activity-item">Member, Alpha Pi Mu</div>
     </div>
   </div>
 
@@ -24,10 +27,7 @@ author_profile: true
       </div>
       <div class="activity-item">
         Member, Association for Computing Machinery (ACM) - UM-Dearborn Student Chapter
-      </div>
-      <div class="activity-item">Member, Sigma Xi</div>
-      <div class="activity-item">Member, Upsilon Pi Epsilon (UPE)</div>
-      <div class="activity-item">Member, Alpha Pi Mu</div>
+      </div>      
       <div class="activity-item">Member, Association for Computing Machinery (ACM)</div>
       <div class="activity-item">Member, Human Factors & Ergonomic Society (HFES)</div>
     </div>
