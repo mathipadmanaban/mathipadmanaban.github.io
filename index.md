@@ -101,11 +101,6 @@ author_profile: true
             <div class="award-info">2025</div>
         </div>
         <div class="award-item">
-            <div class="award-title">Upsilon Pi Epsilon (UPE) Scholarship 2024</div>
-            <div class="award-details">Upsilon Pi Epsilon (UPE)</div>
-            <div class="award-info">$1,000 - Awarded for exceptional academic performance, extracurricular involvement, and leadership within the computing community, 2024</div>
-        </div>
-        <div class="award-item">
             <div class="award-title">Willie Hobbs Moore Achievement Award Nominee; Sister Mary Ambrosia Fitzgerald Mentoring Award Nominee</div>
             <div class="award-details">Women in Science and Engineering (WISE), University of Michigan</div>
             <div class="award-info">2025</div>
@@ -116,24 +111,14 @@ author_profile: true
             <div class="award-info">2023</div>
         </div>
         <div class="award-item">
-            <div class="award-title">Irma M.Wyman Scholar</div>
-            <div class="award-details">Center for the Education ofWomen (CEW+), University of Michigan</div>
+            <div class="award-title">Irma M. Wyman Scholar</div>
+            <div class="award-details">Center for the Education of Women (CEW+), University of Michigan</div>
             <div class="award-info">$11,500 - 2020-2021</div>
         </div>
         <div class="award-item">
             <div class="award-title">Non-Resident Graduate Student Scholar</div>
             <div class="award-details">University of Michigan-Dearborn</div>
             <div class="award-info">$13,000 - S2020, F2020, W2021</div>
-        </div>
-        <div class="award-item">
-            <div class="award-title">Hackathon special mention</div>
-            <div class="award-details">Deloitte, India</div>
-            <div class="award-info">Opportunity to attend JSFoo by Has Geek [India’s premier JS conference] - 2017</div>
-        </div>
-        <div class="award-item">
-            <div class="award-title">Runner-Up</div>
-            <div class="award-details">Syncfusion Hackathon, India</div>
-            <div class="award-info">INR 35,000 - 2015</div>
         </div>
     </div>
 
