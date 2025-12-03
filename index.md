@@ -48,28 +48,6 @@ author_profile: true
     
     <h2 id="research-focus">Research Focus</h2>
     <p>My current research develops <strong>geometry-informed computer vision and machine learning methods</strong> for reliable measurement, perception, and decision support in safety-critical applications. I focus on creating <strong>calibration-free, interpretable, and robust</strong> solutions that address real-world challenges in <strong>transportation safety</strong>, <strong>human-automation interaction</strong>, and <strong>sustainable intelligent systems</strong>. My future research vision aims to develop <strong>hybrid AI frameworks</strong> that optimally blend data-driven and physics-informed methods for enhanced safety and reliability.</p>
-    
-    <div class="research-impact">
-        <h3>Research Impact at a Glance</h3>
-        <div class="impact-metrics">
-            <div class="metric-item">
-                <div class="metric-value">7</div>
-                <div class="metric-label">Publications</div>
-            </div>
-            <div class="metric-item">
-                <div class="metric-value">98.7%</div>
-                <div class="metric-label">Detection Precision</div>
-            </div>
-            <div class="metric-item">
-                <div class="metric-value">93.8%</div>
-                <div class="metric-label">Classification Accuracy</div>
-            </div>
-            <div class="metric-item">
-                <div class="metric-value">2.89s</div>
-                <div class="metric-label">Early Warning Time</div>
-            </div>
-        </div>
-    </div>
     <h2>Education</h2>
     <div class="education-list">
         <div class="education-item">
