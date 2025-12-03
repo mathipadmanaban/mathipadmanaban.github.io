@@ -10,35 +10,162 @@ $primary-color: #34495e;
 $accent-color: #3498db;
 $light-gray: #f5f6fa;
 $border-color: #e1e4e8;
+$hero-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 
 // Typography
-$font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+$font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
 $font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 
 // Import Minimal Mistakes theme
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+// Hero Section
+.hero-section {
+  background: $hero-bg;
+  color: white;
+  padding: 3em 2em;
+  margin: -1em -1em 2em -1em;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+  .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+    color: white;
+    line-height: 1.2;
+    
+    @media screen and (max-width: 768px) {
+      font-size: 1.8em;
+    }
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    opacity: 0.95;
+    font-weight: 300;
+    line-height: 1.5;
+    
+    @media screen and (max-width: 768px) {
+      font-size: 1em;
+    }
+  }
+  
+  .hero-highlights {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin-bottom: 2em;
+    
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 0.8em;
+    }
+    
+    .highlight-item {
+      font-size: 0.95em;
+      opacity: 0.9;
+      
+      i {
+        margin-right: 0.5em;
+      }
+    }
+  }
+  
+  .hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    
+    .hero-btn {
+      display: inline-block;
+      padding: 0.8em 1.8em;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.95em;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      
+      i {
+        margin-right: 0.5em;
+      }
+      
+      &.hero-btn-primary {
+        background-color: white;
+        color: $primary-color;
+        
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+        }
+      }
+      
+      &.hero-btn-secondary {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 2px solid white;
+        
+        &:hover {
+          background-color: white;
+          color: $primary-color;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+}
+
 // Base styles
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: $font-family-sans;
-    font-size: 14px;
-    line-height: 1.65;
+    font-size: 16px;
+    line-height: 1.6;
     color: $text-color;
     background-color: $background-color;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   // Headers
   h1, h2, h3, h4, h5, h6 {
     color: $primary-color;
     font-weight: 600;
-    line-height: 1.25;
-    margin: 0.5em 0
+    line-height: 1.3;
+    margin: 1.2em 0 0.6em 0;
+    font-family: $font-family-sans;
   }
   
-  h1 { font-size: 2em; }
-  h2 { font-size: 1.5em; }
-  h3 { font-size: 1.25em; }
+  h1 { 
+    font-size: 2em;
+    font-weight: 700;
+  }
+  h2 { 
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  h3 { 
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  
+  p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+  }
   
   // Links
   a {
@@ -57,13 +184,26 @@ body {
     padding-right: 50px;
   }
   .page__content {
+    font-size: 1em;
+    line-height: 1.6;
+    
     p {
       margin-bottom: 1em;
+      line-height: 1.6;
     }
     
     ul, ol {
       padding-left: 1.5em;
       margin-bottom: 1.3em;
+      line-height: 1.6;
+      
+      li {
+        margin-bottom: 0.3em;
+      }
+    }
+    
+    strong {
+      font-weight: 600;
     }
   }
   
@@ -105,16 +245,21 @@ body {
       
       .degree {
         font-weight: 600;
+        font-size: 1em;
         color: $primary-color;
+        line-height: 1.4;
       }
       
-      .institution, .year {
-        font-size: 0.9em;
+      .institution {
+        font-size: 0.95em;
         color: $text-color;
+        line-height: 1.5;
       }
+      
       .year {
-        font-size: 0.85em;
+        font-size: 0.9em;
         color: darken($border-color, 30%);
+        line-height: 1.5;
       }
     }
   }
@@ -144,27 +289,73 @@ body {
   .publications {
     margin: 1em 0;
   
+    h2 {
+      margin-top: 1.8em;
+      margin-bottom: 1em;
+      padding-bottom: 0.5em;
+      border-bottom: 2px solid $border-color;
+    }
+    
     .pub-item {
-      margin-bottom: 1.2em;
+      margin-bottom: 1.5em;
+      padding: 1em;
+      background-color: $background-color;
+      border-left: 3px solid $accent-color;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        transform: translateX(4px);
+      }
       
       .pub-title {
         color: $primary-color;
-        font-weight: 500;
+        font-weight: 600;
+        font-size: 1.05em;
+        line-height: 1.4;
+        margin-bottom: 0.4em;
+        
+        a {
+          color: $accent-color;
+          font-size: 0.85em;
+          margin-left: 0.5em;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
   
       .pub-authors {
         font-size: 0.9em;
-        margin: 0.2em 0;
+        margin: 0.4em 0;
+        line-height: 1.5;
         
         .highlight-author {
           color: $accent-color;
-          font-weight: 500;
+          font-weight: 600;
         }
       }
   
       .pub-venue {
         font-size: 0.85em;
-        color: darken($border-color, 30%);
+        color: darken($border-color, 35%);
+        font-style: italic;
+        margin-top: 0.3em;
+      }
+      
+      .pub-status {
+        display: inline-block;
+        margin-top: 0.5em;
+        padding: 0.3em 0.8em;
+        background-color: lighten($accent-color, 40%);
+        color: darken($accent-color, 10%);
+        font-size: 0.75em;
+        font-weight: 600;
+        border-radius: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
       }
     }
   }
@@ -190,30 +381,120 @@ body {
     margin: 1.5em 0;
     
     .project-item {
-      margin-bottom: 1.5em;
+      margin-bottom: 1.8em;
+      padding: 1.2em;
+      background-color: $background-color;
+      border: 1px solid $border-color;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        border-color: $accent-color;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
       
       .project-title {
         color: $primary-color;
-        font-weight: 500;
-        margin-bottom: 0.3em;
+        font-weight: 600;
+        margin-bottom: 0.5em;
+        font-size: 1.1em;
       }
       
       .project-desc {
-        font-size: 0.9em;
+        font-size: 0.95em;
         color: $text-color;
+        line-height: 1.6;
+        margin-bottom: 0.8em;
+      }
+      
+      .project-contributions {
+        margin: 0.8em 0;
+        padding: 0.8em;
+        background-color: lighten($light-gray, 2%);
+        border-left: 3px solid $accent-color;
+        border-radius: 4px;
+        
+        .contributions-title {
+          font-weight: 600;
+          color: $primary-color;
+          font-size: 0.9em;
+          margin-bottom: 0.4em;
+        }
+        
+        ul {
+          margin: 0;
+          padding-left: 1.2em;
+          
+          li {
+            font-size: 0.9em;
+            margin-bottom: 0.3em;
+            color: $text-color;
+          }
+        }
       }
       
       .project-links {
-        margin-top: 0.5em;
-        font-size: 0.85em;
+        margin-top: 0.8em;
+        padding-top: 0.8em;
+        border-top: 1px solid $border-color;
+        font-size: 0.9em;
         
         a {
           color: $accent-color;
-          margin-right: 1em;
+          margin-right: 1.2em;
+          font-weight: 500;
           
           &:hover {
             text-decoration: underline;
           }
+          
+          i {
+            margin-right: 0.3em;
+          }
+        }
+      }
+    }
+  }
+
+  // Research Impact Section
+  .research-impact {
+    margin: 2em 0;
+    padding: 1.5em;
+    background: linear-gradient(135deg, lighten($accent-color, 40%) 0%, lighten($accent-color, 45%) 100%);
+    border-radius: 8px;
+    border: 1px solid lighten($accent-color, 30%);
+    
+    h3 {
+      color: $primary-color;
+      margin-bottom: 1em;
+    }
+    
+    .impact-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      
+      .metric-item {
+        flex: 1;
+        min-width: 150px;
+        padding: 1em;
+        background-color: $background-color;
+        border-radius: 6px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        
+        .metric-value {
+          font-size: 2em;
+          font-weight: 700;
+          color: $accent-color;
+          margin-bottom: 0.2em;
+        }
+        
+        .metric-label {
+          font-size: 0.85em;
+          color: $primary-color;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
         }
       }
     }
@@ -316,33 +597,38 @@ body {
 
   .quote-block {
     position: relative;
-    padding: 1em;
-    margin: 1em 0;
+    padding: 1.5em 1.5em 1.2em 1.5em;
+    margin: 1.5em 0;
     background-color: $light-gray;
     border-left: 4px solid $accent-color;
     font-style: italic;
+    border-radius: 4px;
     
     &::before {
       content: '"';
       position: absolute;
-      top: 0;
-      left: 10px;
-      font-size: 1.2em;
+      top: 5px;
+      left: 15px;
+      font-size: 2em;
       color: $accent-color;
-      opacity: 0.3;
+      opacity: 0.2;
+      line-height: 1;
     }
     
     .quote-text {
       font-size: 1em;
       line-height: 1.6;
-      margin-bottom: 0.5em;
+      margin-bottom: 0.6em;
+      font-family: $font-family-sans;
+      color: $text-color;
     }
     
     .quote-author {
-      font-size: 0.6em;
+      font-size: 0.85em;
       color: $primary-color;
       text-align: right;
       font-style: normal;
+      font-weight: 500;
       
       &::before {
         content: "— ";
@@ -351,10 +637,86 @@ body {
   }
   
   .interests-list {    
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    
     li {
-      color: $primary-color;
-      margin-bottom: 0.3em;
+      color: $text-color;
+      margin-bottom: 1em;
       font-size: 0.95em;
+      line-height: 1.6;
+      
+      strong {
+        color: $primary-color;
+        font-weight: 600;
+      }
+    }
+  }
+
+  // CV Downloads Section
+  .cv-downloads {
+    margin: 2em 0;
+    padding: 1.5em;
+    background: linear-gradient(135deg, $light-gray 0%, darken($light-gray, 5%) 100%);
+    border-radius: 8px;
+    border: 1px solid $border-color;
+    
+    h3 {
+      color: $primary-color;
+      margin-bottom: 1em;
+      font-size: 1.3em;
+    }
+    
+    .cv-option {
+      display: flex;
+      align-items: center;
+      padding: 0.8em;
+      margin-bottom: 0.8em;
+      background-color: $background-color;
+      border-radius: 6px;
+      border: 1px solid $border-color;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        border-color: $accent-color;
+        box-shadow: 0 2px 8px rgba(52, 152, 219, 0.15);
+        transform: translateY(-2px);
+      }
+      
+      .cv-icon {
+        font-size: 1.8em;
+        color: $accent-color;
+        margin-right: 1em;
+        min-width: 40px;
+      }
+      
+      .cv-details {
+        flex: 1;
+        
+        .cv-title {
+          font-weight: 600;
+          color: $primary-color;
+          font-size: 1em;
+          margin-bottom: 0.2em;
+        }
+        
+        .cv-description {
+          font-size: 0.85em;
+          color: darken($border-color, 30%);
+        }
+      }
+      
+      .cv-download {
+        color: $accent-color;
+        font-weight: 500;
+        font-size: 0.9em;
+        
+        i {
+          margin-left: 0.3em;
+        }
+      }
     }
   }
 

@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Research Statement"
+    url: /research-statement/
   - title: "Research Projects"
     url: /research/
   - title: "Publications"

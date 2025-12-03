@@ -2,28 +2,74 @@
 layout: home
 author_profile: true
 ---
-<div class="page__content">
-    <h2>About me</h2>
-    <!-- <div class="quote-block">
-        <div class="quote-text">I was taught that the way of progress was neither swift nor easy.</div>
-        <div class="quote-author">Marie Curie</div>
-    </div> -->
-    <!-- <div class="quote-block">
-        <div class="quote-text">Play is the highest form of research.</div>
-        <div class="quote-author">Albert Einstein</div>
-    </div> -->
-    <div class="quote-block">
-        <div class="quote-text">Some people call this artificial intelligence, but the reality is this technology will enhance us. So instead of artificial intelligence, I think we'll augment our intelligence.</div>
-        <div class="quote-author">Ginni Rometty</div>
+<div class="hero-section">
+    <div class="hero-content">
+        <h1 class="hero-title">Gandhimathi (Mathi) Padmanaban</h1>
+        <p class="hero-subtitle">Ph.D. Candidate | Building Safe and Trustworthy Hybrid AI for Safety-Critical Systems</p>
+        <div class="hero-highlights">
+            <span class="highlight-item"><i class="fas fa-graduation-cap"></i> Industrial & Systems Engineering</span>
+            <span class="highlight-item"><i class="fas fa-microscope"></i> Geometry-Informed Computer Vision</span>
+            <span class="highlight-item"><i class="fas fa-brain"></i> Hybrid Machine Learning</span>
+        </div>
+        <div class="hero-actions">
+            <a href="#research-focus" class="hero-btn hero-btn-primary"><i class="fas fa-flask"></i> Research</a>
+            <a href="/assets/files/mathi_cv_3pg.pdf" class="hero-btn hero-btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+            <a href="mailto:gmathi@umich.edu" class="hero-btn hero-btn-secondary"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
     </div>
-    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering with a deep passion for science, engineering and problem-solving. My journey as an international scholar and first-generation graduate has shaped my unique approach to research, bringing diverse perspectives to engineering solutions. Beyond my research, I'm a mother of two young boys, balancing the excitement of research innovation with the joy of raising curious minds. :) </p>
+</div>
+
+<div class="page__content">
+    <h2 id="about-me">About Me</h2>
+    <div class="quote-block">
+        <div class="quote-text">Data are profoundly dumb. Data can tell you that the people who took a medicine recovered faster than those who did not take it, but they can't tell you why. We need causal reasoning to answer 'why' questions.</div>
+        <div class="quote-author">Judea Pearl</div>
+    </div>
+    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering with a deep passion for developing <strong>reliable and interpretable computational methods</strong> that advance both scientific understanding and practical solutions to real-world challenges. My current research integrates <strong>data-driven machine learning</strong>, <strong>physics-informed methods</strong>, and <strong>geometry-informed computer vision</strong> to create robust tools for safety-critical applications.</p>
+    
+    <p>Through extensive experience with both data-driven and physics-informed approaches, I have gained firsthand understanding of where each method fails individually. This insight drives my <strong>future research vision</strong> to build <strong>hybrid AI frameworks</strong> that optimally blend these approaches, creating systems that are both more reliable and easier to understand for safety-critical deployment. As an international scholar and first-generation graduate student, I am committed to <strong>open science</strong>, <strong>reproducible research</strong>, and fostering <strong>inclusive research environments</strong>. Currently seeking <strong>postdoctoral</strong> and <strong>tenure-track faculty positions</strong> where I can advance this vision while mentoring the next generation of researchers in safe AI development.</p>
+    
     <div class="quote-block">
         <div class="quote-text">The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.</div>
         <div class="quote-author">Martin Luther King Jr.</div>
-    </div>    
-    <p><a href="/assets/files/mathi_cv.pdf" target="_blank">Download CV (PDF)</a></p>
-    <h2>Research Focus</h2>
-    <p>Applied machine learning and geometry-informed computer vision for reliable measurement, perception, and decision support in engineered systems. Recent applications in transportation safety include calibration-free distance estimation, overtaking detection with early warning, and driver behavior modeling.</p>
+    </div>
+
+    <div class="cv-downloads">
+        <h3><i class="fas fa-file-pdf"></i> Curriculum Vitae</h3>
+        <a href="/assets/files/mathi_cv_3pg.pdf" target="_blank" class="cv-option">
+            <div class="cv-icon"><i class="fas fa-file-alt"></i></div>
+            <div class="cv-details">
+                <div class="cv-title">Curriculum Vitae (3 pages)</div>
+                <div class="cv-description">Download my CV in PDF format</div>
+            </div>
+            <div class="cv-download">Download <i class="fas fa-download"></i></div>
+        </a>
+    </div>
+    
+    <h2 id="research-focus">Research Focus</h2>
+    <p>My current research develops <strong>geometry-informed computer vision and machine learning methods</strong> for reliable measurement, perception, and decision support in safety-critical applications. I focus on creating <strong>calibration-free, interpretable, and robust</strong> solutions that address real-world challenges in <strong>transportation safety</strong>, <strong>human-automation interaction</strong>, and <strong>sustainable intelligent systems</strong>. My future research vision aims to develop <strong>hybrid AI frameworks</strong> that optimally blend data-driven and physics-informed methods for enhanced safety and reliability.</p>
+    
+    <div class="research-impact">
+        <h3>Research Impact at a Glance</h3>
+        <div class="impact-metrics">
+            <div class="metric-item">
+                <div class="metric-value">7</div>
+                <div class="metric-label">Publications</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">98.7%</div>
+                <div class="metric-label">Detection Precision</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">93.8%</div>
+                <div class="metric-label">Classification Accuracy</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">2.89s</div>
+                <div class="metric-label">Early Warning Time</div>
+            </div>
+        </div>
+    </div>
     <h2>Education</h2>
     <div class="education-list">
         <div class="education-item">
@@ -63,12 +109,19 @@ author_profile: true
     <h2>Research Interests</h2>
     <div class="interests-list">
         <ul>
-            <li class="interest-item"><strong>Methods</strong>: geometry-informed computer vision; perception, detection/tracking; uncertainty and evaluation; hybrid data-driven + physics-informed ML; time series and decision analytics.</li>
-            <li class="interest-item"><strong>Applications</strong>: transportation safety; human–automation interaction; safe and sustainable intelligent systems engineering; manufacturing systems; energy.</li>
+            <li class="interest-item"><strong>AI/ML Methods</strong>: Geometry-informed computer vision • Deep learning (CNNs, RNNs, Transformers) • Vision transformers (ViTs) • Multi-modal/VLM • Supervised & ensemble methods • Physics-informed machine learning • Uncertainty quantification & calibration • Out-of-distribution detection • Time series analysis • Bayesian methods</li>
+            <li class="interest-item"><strong>Application Domains</strong>: Transportation safety • Driver behavior analysis • Driver-bicyclist interactions • Human factors engineering • Naturalistic driving studies • Sustainable mobility • Safety-critical decision support systems</li>
+            <li class="interest-item"><strong>Tools & Frameworks</strong>: Python (PyTorch, TensorFlow, scikit-learn, OpenCV) • YOLO (v5, v8) • RT-DETR • ByteTrack • Multi-object detection & tracking • Multi-modal data fusion • LiDAR • Git/GitHub • HPC (Slurm) • Docker • LaTeX</li>
+            <li class="interest-item"><strong>Foundations</strong>: Optimization • Statistical learning • Multivariable calculus • Mathematical modeling • Geometric computer vision • Attention mechanisms • Experimental design • Peer review • IRB protocols</li>
         </ul>
     </div>
     <h2>Scholarships and Awards</h2>
     <div class="awards">
+        <div class="award-item">
+            <div class="award-title">Student Visionary Award</div>
+            <div class="award-details">International Forum on Research Excellence (IFoRE' 25), Sigma Xi - The Scientific Research Honor Society</div>
+            <div class="award-info">2025</div>
+        </div>
         <div class="award-item">
             <div class="award-title">Upsilon Pi Epsilon (UPE) Scholarship 2024</div>
             <div class="award-details">Upsilon Pi Epsilon (UPE)</div>

@@ -1,9 +1,12 @@
 ---
-layout: employment
-permalink: /employment/
 layout: single
+permalink: /employment/
 author_profile: true
+title: "Professional Experience"
 ---
+
+<p>My professional journey spans <strong>academic research</strong> and <strong>industry software development</strong>, providing a unique blend of theoretical rigor and practical implementation skills. This experience enables me to develop research solutions that are both methodologically sound and deployable in real-world applications.</p>
+
 <div class="experience">
   <div class="exp-item">
     <div class="role">Graduate Student Research Assistant</div>
@@ -59,7 +62,30 @@ author_profile: true
       <ul>
         <li>Led the development of multiple university management systems, including exam cell software and leave management systems.</li>
         <li>Directed user research, prototyping, design, development, and deployment phases, resulting in highly efficient and user-friendly systems.</li>
+        <li>Taught undergraduate courses in AI, probability theory, and mathematics while conducting research in software engineering.</li>
       </ul>
     </div>
   </div>
+</div>
+
+<div class="research-impact">
+  <h2>Technical Skills & Expertise</h2>
+  
+  <p><strong>Programming Languages</strong>: Python (expert) • JavaScript/TypeScript • C# • SQL • MATLAB • R</p>
+  
+  <p><strong>Machine Learning & AI Frameworks</strong>: PyTorch • TensorFlow • Keras • scikit-learn • XGBoost • Random Forest • SVM • Neural Networks (CNNs, RNNs, Transformers)</p>
+  
+  <p><strong>Computer Vision Tools</strong>: OpenCV • YOLO (v5, v7, v8) • RT-DETR • ByteTrack • Vision Transformers (ViTs) • Multi-object detection & tracking • Image processing and augmentation • Multi-modal data fusion • LiDAR processing</p>
+  
+  <p><strong>Advanced Methods</strong>: Physics-informed machine learning • Uncertainty quantification and calibration • Out-of-distribution detection • Bayesian methods • Time series analysis • Vision-language models (VLM) • Attention mechanisms</p>
+  
+  <p><strong>Data Analysis & Visualization</strong>: NumPy • Pandas • Matplotlib • Seaborn • Plotly • SciPy • Statistical analysis • Experimental design</p>
+  
+  <p><strong>Development Tools & Practices</strong>: Git/GitHub • Jupyter Notebooks • VS Code • Docker • Linux/Unix • Reproducible research workflows • CI/CD practices</p>
+  
+  <p><strong>Web Development</strong>: React.js • Node.js • HTML/CSS • REST APIs • UI/UX design • Responsive web design</p>
+  
+  <p><strong>Research Methods</strong>: Experimental design • Statistical hypothesis testing • Cross-validation • Uncertainty quantification • Mixed methods research • Technical writing and documentation</p>
+  
+  <p><strong>Soft Skills</strong>: Scientific communication • Collaborative research • Project management • Mentoring and teaching • Interdisciplinary collaboration • Grant writing</p>
 </div>
