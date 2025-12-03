@@ -66,12 +66,12 @@ title: "Publications"
     <span class="pub-status">Under Review</span>
   </div>
   
-  <div class="pub-item">
+  <!-- <div class="pub-item">
     <div class="pub-title">Does Vehicle Type Influence Cyclist Overtaking Behavior? A Fine-Grained Vehicle Detection and Geometry-Informed Analysis Framework</div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Fred Feng
     </div>
     <div class="pub-venue">In preparation for submission, 2025</div>
     <span class="pub-status">In Preparation</span>
-  </div>
+  </div> -->
 </div>
