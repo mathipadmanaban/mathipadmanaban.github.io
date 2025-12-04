@@ -5,10 +5,8 @@ author_profile: true
 title: "Publications"
 ---
 
-<p>My research has been published in peer-reviewed conferences and is under review at top-tier journals and conferences in computer vision, transportation, and human factors. I am committed to open science and reproducible research practices.</p>
-
 <div class="publications">
-  <h2>Peer-Reviewed Conference Papers</h2>
+  <h2>Peer-Reviewed Papers</h2>
   
   <div class="pub-item">
     <div class="pub-title">A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From A Bicycle
@@ -54,7 +52,6 @@ title: "Publications"
       <span class="highlight-author">Gandhimathi Padmanaban</span>, Fred Feng, Edward Dai, Ankit Saini, Guopeng Hu, and Yanan Zhao
     </div>
     <div class="pub-venue">Under review, 2025</div>
-    <span class="pub-status">Under Review</span>
   </div>
   
   <div class="pub-item">
@@ -62,8 +59,7 @@ title: "Publications"
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Fred Feng
     </div>
-    <div class="pub-venue">Under review, 2025</div>
-    <span class="pub-status">Under Review</span>
+    <div class="pub-venue">In preparation, 2025</div>
   </div>
   
   <!-- <div class="pub-item">

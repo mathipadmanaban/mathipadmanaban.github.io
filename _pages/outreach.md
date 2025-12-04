@@ -5,7 +5,7 @@ author_profile: true
 title: "Service & Outreach"
 ---
 
-<p>I am deeply committed to advancing the broader impacts of research through <strong>service to the academic community</strong>, <strong>mentorship</strong>, and <strong>outreach efforts</strong> that promote diversity, equity, and inclusion in STEM. My service activities span peer review, professional society leadership, and extensive volunteer work supporting underrepresented groups in computing and engineering.</p>
+<p>Service activities include peer review for top-tier conferences, professional society leadership, and volunteer work supporting underrepresented groups in computing and engineering.</p>
 
 <div class="professional-activities">
   <h2>Leadership Roles</h2>
@@ -51,7 +51,7 @@ title: "Service & Outreach"
   </div>
 
   <h2>Peer Review Service</h2>
-  <p><em>Active reviewer for top-tier conferences in transportation, HCI, information systems, and automotive interfaces, demonstrating expertise across multiple research domains.</em></p>
+  <p>Active reviewer for conferences in transportation, HCI, information systems, and automotive interfaces.</p>
   <div class="activity-group">
     <div class="activity-list">
       <div class="activity-item">
@@ -128,23 +128,23 @@ title: "Service & Outreach"
   </div>
   
   <h2>Diversity, Equity & Inclusion Efforts</h2>
-  <p><em>Committed to broadening participation in computing and engineering through sustained mentorship and educational outreach to underrepresented groups.</em></p>
+  <p>Mentorship and educational outreach to underrepresented groups in computing and engineering.</p>
   <div class="activity-group">
     <div class="activity-list">
       <div class="activity-item">
-        <strong>Instructor/Mentor</strong>, Women of Color Code (WOC Code) - Supporting women of color in computing through workshops, bootcamps, and one-on-one mentoring
+        <strong>Instructor/Mentor</strong>, Women of Color Code (WOC Code) - Workshops, bootcamps, and one-on-one mentoring
         <span class="activity-date">May 2023 - Present</span>
       </div>
       <div class="activity-item">
-        <strong>Carpentries Instructor</strong> - Teaching foundational computational skills to researchers from diverse backgrounds, emphasizing inclusive pedagogy
+        <strong>Carpentries Instructor</strong> - Teaching foundational computational skills to researchers from diverse backgrounds
         <span class="activity-date">2023 - Present</span>
       </div>
       <div class="activity-item">
-        <strong>STEM Tutor</strong> - Provided tutoring in mathematics, physics, chemistry, and computer science to middle and high school students
+        <strong>STEM Tutor</strong> - Mathematics, physics, chemistry, and computer science for middle and high school students
         <span class="activity-date">2010-2013, 2018-2020</span>
       </div>
       <div class="activity-item">
-        <strong>Rackham DEI Certificate</strong> - Completed professional development training in diversity, equity, and inclusion in graduate education
+        <strong>Rackham DEI Certificate</strong> - Professional development training in diversity, equity, and inclusion
         <span class="activity-date">2025</span>
       </div>
     </div>

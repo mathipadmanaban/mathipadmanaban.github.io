@@ -5,18 +5,17 @@ author_profile: true
 title: "Teaching & Mentorship"
 ---
 
-<p>I am passionate about creating inclusive, engaging learning environments that empower students to develop both technical skills and critical thinking abilities. My teaching philosophy emphasizes <strong>hands-on learning</strong>, <strong>reproducible practices</strong>, and fostering <strong>computational thinking</strong> across diverse student populations.</p>
+<p>My teaching emphasizes <strong>hands-on learning</strong>, <strong>reproducible practices</strong>, and fostering <strong>computational thinking</strong> across diverse student populations.</p>
 
 <div class="research-impact">
   <h3>Teaching Interests</h3>
   <p><strong>Core Courses</strong>: Machine Learning • Computer Vision • Data Science & Analytics • Human Factors Engineering • Industrial & Systems Engineering • Programming for Engineers (Python)</p>
-  <p><strong>Advanced Topics</strong>: Geometry-Informed Machine Learning • Computer Vision for Safety-Critical Systems • Intelligent Transportation Systems • Human-Automation Interaction • Reproducible Research Methods</p>
-  <p><strong>Course Development</strong>: Interdisciplinary courses bridging ISE, Computer Science, and Human-Centered Design • Project-based learning incorporating real-world datasets • Open-source tools and reproducible research practices</p>
+  <p><strong>Advanced Topics</strong>: Geometry-Informed Machine Learning • Computer Vision for Safety-Critical Systems • Intelligent Transportation Systems • Human-Automation Interaction</p>
 </div>
 
 <div class="teaching-experience">
   <h2>Workshops & Tutorials</h2>
-  <p><em>As a Certified Instructor with The Carpentries, I teach foundational coding and data science skills to researchers across disciplines, emphasizing reproducible research practices.</em></p>
+  <p>Certified Instructor with The Carpentries, teaching foundational coding and data science skills to researchers across disciplines.</p>
   
   <div class="teaching-item">
     <div class="event-title">Software Carpentry Workshop - Python Programming</div>
@@ -100,5 +99,5 @@ title: "Teaching & Mentorship"
   </div>
   
   <h2>Mentorship & Advising</h2>
-  <p><em>I am committed to mentoring students from diverse backgrounds, particularly supporting women and underrepresented minorities in computing and engineering. As an instructor and mentor with Women of Color Code and The Carpentries, I have worked with many students to develop their computational skills and research capabilities.</em></p>
+  <p>Instructor and mentor with Women of Color Code and The Carpentries, supporting students from diverse backgrounds in computing and engineering.</p>
 </div>

@@ -5,7 +5,7 @@ author_profile: true
 title: "Professional Experience"
 ---
 
-<p>My professional journey spans <strong>academic research</strong> and <strong>industry software development</strong>, providing a unique blend of theoretical rigor and practical implementation skills. This experience enables me to develop research solutions that are both methodologically sound and deployable in real-world applications.</p>
+<p>Professional experience spans academic research and industry software development, combining theoretical rigor with practical implementation skills.</p>
 
 <div class="experience">
   <div class="exp-item">

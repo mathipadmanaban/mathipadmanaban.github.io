@@ -5,7 +5,8 @@ author_profile: true
 <div class="hero-section">
     <div class="hero-content">
         <h1 class="hero-title">Gandhimathi (Mathi) Padmanaban</h1>
-        <p class="hero-subtitle">Ph.D. Candidate | Building Safe and Trustworthy Hybrid AI for Safety-Critical Systems</p>
+        <p class="hero-subtitle">Ph.D. Candidate - U of M-Dearborn | Limit-Aware Hybrid AI for Transportation Safety</p>
+        <p class="hero-vision">Research Vision: Building hybrid perception systems that know when predictions break physics, and know when to abstain, not just when to be confident.</p>
         <div class="hero-highlights">
             <span class="highlight-item"><i class="fas fa-graduation-cap"></i> Industrial & Systems Engineering</span>
             <span class="highlight-item"><i class="fas fa-microscope"></i> Geometry-Informed Computer Vision</span>
@@ -13,7 +14,7 @@ author_profile: true
         </div>
         <div class="hero-actions">
             <a href="#research-focus" class="hero-btn hero-btn-primary"><i class="fas fa-flask"></i> Research</a>
-            <a href="/assets/files/mathi_cv_3pg.pdf" class="hero-btn hero-btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+            <a href="/assets/files/mathi_cv.pdf" class="hero-btn hero-btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
             <a href="mailto:gmathi@umich.edu" class="hero-btn hero-btn-secondary"><i class="fas fa-envelope"></i> Contact</a>
         </div>
     </div>
@@ -21,33 +22,12 @@ author_profile: true
 
 <div class="page__content">
     <h2 id="about-me">About Me</h2>
-    <div class="quote-block">
-        <div class="quote-text">Data are profoundly dumb. Data can tell you that the people who took a medicine recovered faster than those who did not take it, but they can't tell you why. We need causal reasoning to answer 'why' questions.</div>
-        <div class="quote-author">Judea Pearl</div>
-    </div>
-    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering with a deep passion for developing <strong>reliable and interpretable computational methods</strong> that advance both scientific understanding and practical solutions to real-world challenges. My current research integrates <strong>data-driven machine learning</strong>, <strong>physics-informed methods</strong>, and <strong>geometry-informed computer vision</strong> to create robust tools for safety-critical applications.</p>
+    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering at the University of Michigan-Dearborn. My dissertation, "Enhancing Transportation Safety: Research on Driver Behaviors Using Advanced Machine Learning," integrates <strong>data-driven machine learning</strong>, <strong>physics-informed methods</strong>, and <strong>geometry-informed computer vision</strong> for transportation safety applications.</p>
     
-    <p>Through extensive experience with both data-driven and physics-informed approaches, I have gained firsthand understanding of where each method fails individually. This insight drives my <strong>future research vision</strong> to build <strong>hybrid AI frameworks</strong> that optimally blend these approaches, creating systems that are both more reliable and easier to understand for safety-critical deployment. As an international scholar and first-generation graduate student, I am committed to <strong>open science</strong>, <strong>reproducible research</strong>, and fostering <strong>inclusive research environments</strong>. Currently seeking <strong>postdoctoral</strong> and <strong>tenure-track faculty positions</strong> where I can advance this vision while mentoring the next generation of researchers in safe AI development.</p>
-    
-    <div class="quote-block">
-        <div class="quote-text">The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.</div>
-        <div class="quote-author">Martin Luther King Jr.</div>
-    </div>
-
-    <div class="cv-downloads">
-        <h3><i class="fas fa-file-pdf"></i> Curriculum Vitae</h3>
-        <a href="/assets/files/mathi_cv_3pg.pdf" target="_blank" class="cv-option">
-            <div class="cv-icon"><i class="fas fa-file-alt"></i></div>
-            <div class="cv-details">
-                <div class="cv-title">Curriculum Vitae (3 pages)</div>
-                <div class="cv-description">Download my CV in PDF format</div>
-            </div>
-            <div class="cv-download">Download <i class="fas fa-download"></i></div>
-        </a>
-    </div>
+    <p>My work with both data-driven and physics-informed approaches has revealed limitations in each method individually. This informs my future research on <strong>Limit-Aware Hybrid AI</strong> frameworks organized around three core thrusts: <strong>physically grounded architectures</strong> that embed domain constraints as structural components, <strong>geometry-informed representation learning</strong> that leverages mathematical models of space and motion, and <strong>operational awareness with structured abstention</strong> that enables systems to know when to defer rather than confidently predict. These frameworks create perception systems that are both statistically accurate and operationally robust for safety-critical deployment. I am committed to <strong>open science</strong> and <strong>reproducible research</strong>. Currently seeking <strong>academic research positions</strong>.</p>
     
     <h2 id="research-focus">Research Focus</h2>
-    <p>My current research develops <strong>geometry-informed computer vision and machine learning methods</strong> for reliable measurement, perception, and decision support in safety-critical applications. I focus on creating <strong>calibration-free, interpretable, and robust</strong> solutions that address real-world challenges in <strong>transportation safety</strong>, <strong>human-automation interaction</strong>, and <strong>sustainable intelligent systems</strong>. My future research vision aims to develop <strong>hybrid AI frameworks</strong> that optimally blend data-driven and physics-informed methods for enhanced safety and reliability.</p>
+    <p>My current research develops <strong>geometry-informed computer vision and machine learning methods</strong> for <strong>transportation safety</strong> and <strong>driver behavior analysis</strong>. My future research vision focuses on <strong>Limit-Aware Hybrid AI</strong> for reliable deep perception, developing frameworks that embed physical and regulatory limits as structural components of perception architectures to create systems that are both statistically accurate and operationally robust.</p>
     <h2>Education</h2>
     <div class="education-list">
         <div class="education-item">
@@ -69,12 +49,12 @@ author_profile: true
     <h2>Certifications</h2>
     <div class="certification-list">
         <div class="cert-item">
-            <div class="cert-name"><a href='https://ccat.umtri.umich.edu/education/cat-certificate/'>Connected and Automated Transportation Certificate</a></div>
+            <div class="cert-name">Connected and Automated Transportation Certificate</a></div>
             <div class="cert-issuer">Center for Connected and Automated Transportation</div>
             <div class="cert-date">Dec 2025</div>
         </div>
         <div class="cert-item">
-            <div class="cert-name"><a href='https://rackham.umich.edu/professional-development/dei-certificate/'>Rackham Professional Development Diversity, Equity, and Inclusion Certificate</a></div>
+            <div class="cert-name">Rackham Professional Development Diversity, Equity, and Inclusion Certificate</a></div>
             <div class="cert-issuer">Rackham Graduate School - University of Michigan</div>
             <div class="cert-date">2025</div>
         </div>
@@ -87,10 +67,8 @@ author_profile: true
     <h2>Research Interests</h2>
     <div class="interests-list">
         <ul>
-            <li class="interest-item"><strong>AI/ML Methods</strong>: Geometry-informed computer vision • Deep learning (CNNs, RNNs, Transformers) • Vision transformers (ViTs) • Multi-modal/VLM • Supervised & ensemble methods • Physics-informed machine learning • Uncertainty quantification & calibration • Out-of-distribution detection • Time series analysis • Bayesian methods</li>
-            <li class="interest-item"><strong>Application Domains</strong>: Transportation safety • Driver behavior analysis • Driver-bicyclist interactions • Human factors engineering • Naturalistic driving studies • Sustainable mobility • Safety-critical decision support systems</li>
-            <li class="interest-item"><strong>Tools & Frameworks</strong>: Python (PyTorch, TensorFlow, scikit-learn, OpenCV) • YOLO (v5, v8) • RT-DETR • ByteTrack • Multi-object detection & tracking • Multi-modal data fusion • LiDAR • Git/GitHub • HPC (Slurm) • Docker • LaTeX</li>
-            <li class="interest-item"><strong>Foundations</strong>: Optimization • Statistical learning • Multivariable calculus • Mathematical modeling • Geometric computer vision • Attention mechanisms • Experimental design • Peer review • IRB protocols</li>
+            <li class="interest-item"><strong>Methodological Focus</strong>: Limit-aware spatial intelligence • Geometry-informed computer vision • Hybrid data-driven and physics-informed machine learning • Physically grounded architectures • Geometry-informed representation learning • Operational awareness and structured abstention</li>
+            <li class="interest-item"><strong>Application Domains</strong>: Transportation safety and cyclist-vehicle interactions • Driver behavior analysis • Reliable deep perception for autonomous systems • Safety-critical decision support systems</li>
         </ul>
     </div>
     <h2>Scholarships and Awards</h2>
