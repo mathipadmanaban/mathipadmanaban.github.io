@@ -5,7 +5,7 @@ author_profile: true
 <div class="hero-section">
     <div class="hero-content">
         <h1 class="hero-title">Gandhimathi (Mathi) Padmanaban</h1>
-        <p class="hero-subtitle">Ph.D. Candidate - U of M-Dearborn | Limit-Aware Hybrid AI for Transportation Safety</p>
+        <p class="hero-subtitle">Ph.D. Candidate - U of M-Dearborn | Limit-Aware Hybrid AI for Reliable Deep Perception</p>
         <p class="hero-vision">Research Vision: Building hybrid perception systems that know when predictions break physics, and know when to abstain, not just when to be confident.</p>
         <div class="hero-highlights">
             <span class="highlight-item"><i class="fas fa-graduation-cap"></i> Industrial & Systems Engineering</span>
@@ -22,7 +22,7 @@ author_profile: true
 
 <div class="page__content">
     <h2 id="about-me">About Me</h2>
-    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering at the University of Michigan-Dearborn. My dissertation, "Enhancing Transportation Safety: Research on Driver Behaviors Using Advanced Machine Learning," integrates <strong>data-driven machine learning</strong>, <strong>physics-informed methods</strong>, and <strong>geometry-informed computer vision</strong> for transportation safety applications.</p>
+    <p>I am a Ph.D. Candidate in Industrial and Systems Engineering at the University of Michigan-Dearborn. My dissertation, <q>Examining Transportation Safety and Road User Behaviors through Machine Learning and Vision Transformers,</q> develops data-driven pipelines that integrate <strong>vehicle kinematics</strong>, <strong>projective geometry</strong>, and <strong>vision models</strong> to analyze driver behavior and vehicle–bicyclist interactions, with an eye toward systems humans can understand, oversee, and trust in safety-critical settings.</p>
     
     <p>My work with both data-driven and physics-informed approaches has revealed limitations in each method individually. This informs my future research on <strong>Limit-Aware Hybrid AI</strong> frameworks organized around three core thrusts: <strong>physically grounded architectures</strong> that embed domain constraints as structural components, <strong>geometry-informed representation learning</strong> that leverages mathematical models of space and motion, and <strong>operational awareness with structured abstention</strong> that enables systems to know when to defer rather than confidently predict. These frameworks create perception systems that are both statistically accurate and operationally robust for safety-critical deployment. I am committed to <strong>open science</strong> and <strong>reproducible research</strong>. Currently seeking <strong>academic research positions</strong>.</p>
     
@@ -33,7 +33,7 @@ author_profile: true
         <div class="education-item">
             <div class="degree">Ph.D. in Industrial and Systems Engineering</div>
             <div class="institution">University of Michigan-Dearborn and Rackham Graduate School</div>
-            <div class="year">Apr 2026</div>
+            <div class="year">Aug 2026 (expected)</div>
         </div>
         <div class="education-item">
             <div class="degree">M.S. in Human Centered Design and Engineering</div>
@@ -49,12 +49,12 @@ author_profile: true
     <h2>Certifications</h2>
     <div class="certification-list">
         <div class="cert-item">
-            <div class="cert-name">Connected and Automated Transportation Certificate</a></div>
+            <div class="cert-name">Connected and Automated Transportation Certificate</div>
             <div class="cert-issuer">Center for Connected and Automated Transportation</div>
-            <div class="cert-date">Dec 2025</div>
+            <div class="cert-date">Apr 2026 (expected)</div>
         </div>
         <div class="cert-item">
-            <div class="cert-name">Rackham Professional Development Diversity, Equity, and Inclusion Certificate</a></div>
+            <div class="cert-name">Rackham Professional Development Diversity, Equity, and Inclusion Certificate</div>
             <div class="cert-issuer">Rackham Graduate School - University of Michigan</div>
             <div class="cert-date">2025</div>
         </div>
@@ -79,9 +79,9 @@ author_profile: true
             <div class="award-info">2025</div>
         </div>
         <div class="award-item">
-            <div class="award-title">Willie Hobbs Moore Achievement Award Nominee; Sister Mary Ambrosia Fitzgerald Mentoring Award Nominee</div>
-            <div class="award-details">Women in Science and Engineering (WISE), University of Michigan</div>
-            <div class="award-info">2025</div>
+            <div class="award-title">Upsilon Pi Epsilon (UPE) Scholarship</div>
+            <div class="award-details">Awarded for exceptional academic performance, extracurricular involvement, and leadership within the computing community</div>
+            <div class="award-info">2024</div>
         </div>
         <div class="award-item">
             <div class="award-title">Global Finalist</div>
@@ -97,6 +97,11 @@ author_profile: true
             <div class="award-title">Non-Resident Graduate Student Scholar</div>
             <div class="award-details">University of Michigan-Dearborn</div>
             <div class="award-info">$13,000 - S2020, F2020, W2021</div>
+        </div>
+        <div class="award-item">
+            <div class="award-title">Deloitte Hackathon Special Mention; Syncfusion Hackathon 2nd Place</div>
+            <div class="award-details">Deloitte (2017); Syncfusion (2015, INR 35,000)</div>
+            <div class="award-info">2015–2017</div>
         </div>
     </div>
 

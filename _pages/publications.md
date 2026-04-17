@@ -9,8 +9,7 @@ title: "Publications"
   <h2>Peer-Reviewed Papers</h2>
   
   <div class="pub-item">
-    <div class="pub-title">A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From A Bicycle
-    </div>
+    <div class="pub-title">A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From A Bicycle</div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span>, Rayane Moustafa, and Fred Feng
     </div>
@@ -27,8 +26,7 @@ title: "Publications"
   </div>
   
   <div class="pub-item">
-    <div class="pub-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles
-    <a href="https://www.sae.org/publications/technical-papers/content/2025-01-8605/" target="_blank">[Link]</a></div>
+    <div class="pub-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles <a href="https://www.sae.org/publications/technical-papers/content/2025-01-8605/" target="_blank">[Link]</a></div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span>, Fred Feng, Edward Dai, Ankit Saini, Guopeng Hu, and Yanan Zhao
     </div>
@@ -36,8 +34,7 @@ title: "Publications"
   </div>
   
   <div class="pub-item">
-    <div class="pub-title">An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers
-    <a href="https://dl.acm.org/doi/10.1145/3473682.3480282" target="_blank">[Link]</a></div>
+    <div class="pub-title">An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers <a href="https://dl.acm.org/doi/10.1145/3473682.3480282" target="_blank">[Link]</a></div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span>, Nathaniel P. Jachim, Hala Shandi, Lilit Avetisyan, Garrett Smith, Howrah Hammoud, and Feng Zhou
     </div>
@@ -47,27 +44,26 @@ title: "Publications"
   <h2>Under Review & In Preparation</h2>
   
   <div class="pub-item">
-    <div class="pub-title">A Machine Learning Pipeline Framework to Identify Aggressive Driving Based on Vehicle Kinematics and Driver's Pedal Operations</div>
+    <div class="pub-title">A Machine Learning Framework to Identify Aggressive Driving Based on Vehicle Kinematics and Driver Pedal Operations</div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span>, Fred Feng, Edward Dai, Ankit Saini, Guopeng Hu, and Yanan Zhao
     </div>
-    <div class="pub-venue">Under review, 2025</div>
+    <div class="pub-venue">Submitted to <em>Engineering Applications of Artificial Intelligence</em>, 2025</div>
   </div>
   
   <div class="pub-item">
-    <div class="pub-title">Geometry-Informed Distance Estimation from 2D Bounding Boxes for Vehicle Overtaking Analysis</div>
+    <div class="pub-title">Perspective-Geometry-Informed Lateral Passing Distance Estimation from Monocular Video for Naturalistic Overtaking Safety Analysis</div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Fred Feng
     </div>
-    <div class="pub-venue">In preparation, 2025</div>
+    <div class="pub-venue">In preparation (International Cycling Safety Conference), 2026</div>
   </div>
   
-  <!-- <div class="pub-item">
-    <div class="pub-title">Does Vehicle Type Influence Cyclist Overtaking Behavior? A Fine-Grained Vehicle Detection and Geometry-Informed Analysis Framework</div>
+  <div class="pub-item">
+    <div class="pub-title">An Open-Source Two-Stage Computer Vision Pipeline for Fine-Grained Vehicle Classification using Vision Transformers</div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Fred Feng
     </div>
-    <div class="pub-venue">In preparation for submission, 2025</div>
-    <span class="pub-status">In Preparation</span>
-  </div> -->
+    <div class="pub-venue">In preparation, 2026</div>
+  </div>
 </div>

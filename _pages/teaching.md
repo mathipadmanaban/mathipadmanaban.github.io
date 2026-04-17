@@ -45,7 +45,7 @@ title: "Teaching & Mentorship"
   <h2>Conference Presentations</h2>
   <div class="teaching-item">
     <div class="event-title">A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From A Bicycle</div>
-    <div class="event-details">Transportation Research Board (TRB) Annual Meeting | Washington, DC (Poster Presentation)</div>
+    <div class="event-details">Transportation Research Board (TRB) Annual Meeting (Accepted), 2026 | Washington, DC (Poster presentation)</div>
     <div class="event-date">Jan 2026</div>
   </div>
   <div class="teaching-item">
@@ -55,12 +55,12 @@ title: "Teaching & Mentorship"
   </div>
   <div class="teaching-item">
     <div class="event-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
-    <div class="event-details">SAE World Congress Experience (WCX) | Detroit, MI</div>
+    <div class="event-details">SAE Technical Paper 2025-01-8605, WCX SAE World Congress Experience, 2025 | Detroit, MI</div>
     <div class="event-date">Apr 2025</div>
   </div>
   <div class="teaching-item">
     <div class="event-title">An Autonomous Driving System - Dedicated Vehicle for People with ASD and their Caregivers</div>
-    <div class="event-details">13th International Conference on Automotive User Interfaces (AutomotiveUI)</div>
+    <div class="event-details">AutomotiveUI '21 Adjunct: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications, Association for Computing Machinery, 2021</div>
     <div class="event-date">Sep 2021</div>
   </div>
   
