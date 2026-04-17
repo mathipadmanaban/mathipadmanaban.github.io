@@ -25,7 +25,7 @@ sass:
 # Site Author
 author:
   name: "Gandhimathi Padmanaban"
-  avatar: "/assets/images/mathi-profile.jpg"
+  avatar: "/assets/images/mathi-profile.png"
   bio: "Hybrid AI · Computer Vision · Transportation Safety"
   links:
     - label: "Email"
