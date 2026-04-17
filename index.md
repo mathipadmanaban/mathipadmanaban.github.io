@@ -14,7 +14,7 @@ author_profile: true
         </div>
         <div class="hero-actions">
             <a href="#research-focus" class="hero-btn hero-btn-primary"><i class="fas fa-flask"></i> Research</a>
-            <a href="/assets/files/mathi_cv.pdf" class="hero-btn hero-btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+            <a href="/assets/files/Mathi_cv_apr2026.pdf" class="hero-btn hero-btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
             <a href="mailto:gmathi@umich.edu" class="hero-btn hero-btn-secondary"><i class="fas fa-envelope"></i> Contact</a>
         </div>
     </div>
