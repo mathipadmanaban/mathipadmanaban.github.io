@@ -52,7 +52,7 @@ title: "Publications"
   </div>
   
   <div class="pub-item">
-    <div class="pub-title">Perspective-Geometry-Informed Lateral Passing Distance Estimation from Monocular Video for Naturalistic Overtaking Safety Analysis</div>
+    <div class="pub-title">Vision-Based Lateral Passing Distance Estimation from Bicycle-Mounted Cameras: A Projective Geometry Approach</div>
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span> and Fred Feng
     </div>
