@@ -5,7 +5,7 @@ author_profile: true
 <div class="hero-section">
     <div class="hero-content">
         <h1 class="hero-title">Gandhimathi (Mathi) Padmanaban</h1>
-        <p class="hero-subtitle">Ph.D. Candidate - U of M-Dearborn | Limit-Aware Hybrid AI for Reliable Deep Perception</p>
+        <p class="hero-subtitle">Ph.D. Candidate - U of M-Dearborn | Applied AI Researcher</p>
         <p class="hero-vision">Research Vision: Building hybrid perception systems that know when predictions break physics, and know when to abstain, not just when to be confident.</p>
         <div class="hero-highlights">
             <span class="highlight-item"><i class="fas fa-graduation-cap"></i> Industrial & Systems Engineering</span>
