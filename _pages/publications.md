@@ -48,7 +48,7 @@ title: "Publications"
     <div class="pub-authors">
       <span class="highlight-author">Gandhimathi Padmanaban</span>, Fred Feng, Edward Dai, Ankit Saini, Guopeng Hu, and Yanan Zhao
     </div>
-    <div class="pub-venue">Submitted to <em>Engineering Applications of Artificial Intelligence</em>, 2025</div>
+    <div class="pub-venue">Journal under review at <em>Engineering Applications of Artificial Intelligence</em>, 2025</div>
   </div>
   
   <div class="pub-item">
