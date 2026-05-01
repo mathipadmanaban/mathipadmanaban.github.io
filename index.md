@@ -15,6 +15,7 @@ author_profile: true
         <div class="hero-actions">
             <a href="#research-focus" class="hero-btn hero-btn-primary"><i class="fas fa-flask"></i> Research</a>
             <a href="/assets/files/Mathi_cv_apr2026.pdf" class="hero-btn hero-btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> Download CV</a>
+            <a href="/assets/files/Mathi_Research_Statement.pdf" class="hero-btn hero-btn-secondary" target="_blank"><i class="fas fa-file-pdf"></i> Download Research Statement</a>
             <a href="mailto:gmathi@umich.edu" class="hero-btn hero-btn-secondary"><i class="fas fa-envelope"></i> Contact</a>
         </div>
     </div>
@@ -67,8 +68,8 @@ author_profile: true
     <h2>Research Interests</h2>
     <div class="interests-list">
         <ul>
-            <li class="interest-item"><strong>Methodological Focus</strong>: Limit-aware spatial intelligence • Geometry-informed computer vision • Hybrid data-driven and physics-informed machine learning • Physically grounded architectures • Geometry-informed representation learning • Operational awareness and structured abstention</li>
-            <li class="interest-item"><strong>Application Domains</strong>: Transportation safety and cyclist-vehicle interactions • Driver behavior analysis • Reliable deep perception for autonomous systems • Safety-critical decision support systems</li>
+            <li class="interest-item"><strong>Methodological Focus</strong>: Geometry-informed computer vision and perception - Physics-informed and hybrid machine learning - Calibration-free sensing and projective geometry features - Physically grounded architectures for safety-critical systems - Geometry-informed representation learning - Operational awareness and structured abstention</li>
+            <li class="interest-item"><strong>Application Domains</strong>: Vulnerable road user safety - Cyclist and pedestrian protection - Transportation safety and naturalistic driving analysis - Reliable perception for autonomous and cyber-physical systems - Safety-critical decision support and human-interpretable uncertainty</li>
         </ul>
     </div>
     <h2>Scholarships and Awards</h2>
