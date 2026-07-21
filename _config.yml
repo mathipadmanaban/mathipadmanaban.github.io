@@ -3,7 +3,7 @@ locale: "en-US"
 title: "Gandhimathi Padmanaban"
 subtitle: ""
 name: "Gandhimathi Padmanaban"
-description: "Ph.D. Candidate in Industrial & Systems Engineering. Research on geometry-informed computer vision, vision transformers, and transportation safety; future agenda on limit-aware hybrid AI for reliable deep perception."
+description: "Applied computer vision and machine learning researcher. I build geometry-grounded perception that stays reliable when the camera, platform, or site changes, and that signals when it should not be trusted. Ph.D., Industrial and Systems Engineering, University of Michigan-Dearborn."
 url: "https://mathipadmanaban.github.io"
 repository: "mathipadmanaban/mathipadmanaban.github.io"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -18,6 +18,14 @@ plugins:
 include:
   - _pages
 
+exclude:
+  - OPTIONAL_ENHANCEMENTS.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - vendor
+
 sass:
   sass_dir: assets/css
   style: compressed
@@ -26,7 +34,7 @@ sass:
 author:
   name: "Gandhimathi Padmanaban"
   avatar: "/assets/images/mathi-profile.png"
-  bio: "Hybrid AI · Computer Vision · Transportation Safety"
+  bio: "Applied Computer Vision · Reliable Perception · Machine Learning"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

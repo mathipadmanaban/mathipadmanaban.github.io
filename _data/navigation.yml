@@ -1,13 +1,15 @@
 main:
   - title: "Home"
     url: /
-  - title: "Research Projects"
+  - title: "Research"
     url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "Software"
+    url: /software/
   - title: "Teaching"
     url: /teaching/
-  - title: "Employment"
+  - title: "Experience"
     url: /employment/
-  - title: "Outreach"
+  - title: "Service"
     url: /outreach/

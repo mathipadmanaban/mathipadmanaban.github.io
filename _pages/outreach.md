@@ -5,7 +5,7 @@ author_profile: true
 title: "Service & Outreach"
 ---
 
-<p>Service activities include peer review for top-tier conferences, professional society leadership, and volunteer work supporting underrepresented groups in computing and engineering.</p>
+<p>Service activities include peer review for journals and top-tier conferences, professional society leadership, and volunteer work supporting underrepresented groups in computing and engineering.</p>
 
 <div class="professional-activities">
   <h2>Leadership Roles</h2>
@@ -51,9 +51,13 @@ title: "Service & Outreach"
   </div>
 
   <h2>Peer Review Service</h2>
-  <p>Active reviewer for conferences in transportation, HCI, information systems, and automotive interfaces.</p>
+  <p>Active reviewer for journals and conferences in transportation, HCI, information systems, and automotive interfaces.</p>
   <div class="activity-group">
     <div class="activity-list">
+      <div class="activity-item">
+        <strong>IEEE Transactions on Intelligent Transportation Systems</strong>
+        <span class="activity-date">Journal</span>
+      </div>
       <div class="activity-item">
         <strong>Transportation Research Board (TRB) Annual Meeting</strong>
         <span class="activity-date">2026</span>

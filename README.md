@@ -6,7 +6,7 @@ Personal academic website showcasing research, publications, and professional ac
 
 ## About
 
-Ph.D. Candidate in Industrial & Systems Engineering specializing in geometry-informed computer vision, machine learning, and transportation safety research.
+Applied computer vision and machine learning researcher (Ph.D., Industrial & Systems Engineering, University of Michigan-Dearborn, 2026). Focus on reliable, calibration-free perception, geometry-informed feature design, and reliability-aware models.
 
 ## Technology
 
