@@ -5,9 +5,9 @@ author_profile: true
 <div class="hero-section">
     <div class="hero-content">
         <h1 class="hero-title">Gandhimathi (Mathi) Padmanaban</h1>
-        <p class="hero-subtitle">Applied Computer Vision and Machine Learning &middot; Ph.D., Industrial and Systems Engineering, University of Michigan-Dearborn</p>
-        <p class="hero-vision">I build geometry-grounded perception that stays reliable when the camera, platform, or site changes, and that signals when it should not be trusted.</p>
-        <p class="hero-availability">Seeking postdoctoral and research positions, 2026&ndash;27. &nbsp;&middot;&nbsp; <a href="/assets/files/Mathi_CV.pdf" target="_blank">Download CV</a></p>
+        <p class="hero-subtitle">Ph.D., Industrial and Systems Engineering, University of Michigan-Dearborn</p>
+        <p class="hero-vision">Applied Computer Vision and Machine Learning researcher. I build geometry-grounded perception that stays reliable when the camera, platform, or site changes, and that signals when it should not be trusted.</p>
+        <p class="hero-availability">Seeking postdoctoral and research positions, 2026&ndash;27. &nbsp;&middot;&nbsp; <a href="/assets/files/mathi_cv.pdf" target="_blank">Download CV</a></p>
     </div>
 </div>
 
@@ -117,6 +117,6 @@ author_profile: true
         </div>
     </div>
 
-    <p style="margin-top:1.5em;"><a href="/assets/files/Mathi_CV.pdf" target="_blank">See full CV</a> for the complete list of awards, publications, and service.</p>
+    <p style="margin-top:1.5em;"><a href="/assets/files/mathi_cv.pdf" target="_blank">See full CV</a> for the complete list of awards, publications, and service.</p>
 
 </div>
