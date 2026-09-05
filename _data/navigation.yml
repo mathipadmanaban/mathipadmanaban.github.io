@@ -3,13 +3,5 @@ main:
     url: /
   - title: "Research"
     url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "Software"
-    url: /software/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Experience"
-    url: /employment/
-  - title: "Service"
-    url: /outreach/
+  - title: "CV"
+    url: /assets/files/mathi_cv.pdf

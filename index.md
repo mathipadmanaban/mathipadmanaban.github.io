@@ -6,34 +6,124 @@ author_profile: true
     <div class="hero-content">
         <h1 class="hero-title">Gandhimathi (Mathi) Padmanaban</h1>
         <p class="hero-subtitle">Ph.D., Industrial and Systems Engineering, University of Michigan-Dearborn</p>
-        <p class="hero-vision">Applied Computer Vision and Machine Learning researcher. I build geometry-grounded perception that stays reliable when the camera, platform, or site changes, and that signals when it should not be trusted.</p>
-        <p class="hero-availability">Seeking postdoctoral and research positions, 2026&ndash;27. &nbsp;&middot;&nbsp; <a href="/assets/files/mathi_cv.pdf" target="_blank">Download CV</a></p>
+        <p class="hero-availability">On the 2026&ndash;27 Academic Job Market &nbsp;&middot;&nbsp; <a href="/assets/files/mathi_cv.pdf" target="_blank">CV</a> &nbsp;&middot;&nbsp; <a href="mailto:gmathi@umich.edu">gmathi@umich.edu</a></p>
     </div>
 </div>
 
 <div class="page__content">
-    <h2 id="about-me">About Me</h2>
-    <p>I am an applied computer vision and machine learning researcher. I completed my Ph.D. in Industrial and Systems Engineering at the University of Michigan-Dearborn, advised by Dr. Fred Feng (dissertation defended June 2026). My work builds perception systems that human-AI systems can rely on, and that keep working when the sensor, platform, or recording site changes. Each feature starts from how a vehicle's projection in the image encodes its geometry, the way its bounding box grows as it approaches and its bearing shifts as it passes, and I derive that quantitatively from the pinhole camera model so the feature carries a physical quantity rather than raw appearance. Geometric-consistency checks reject detections that violate the projection model, and a confidence threshold lets the classification stage abstain rather than commit to a label it cannot support.</p>
 
-    <p>I demonstrated this in road-safety measurement, estimating vehicle-bicyclist interactions from a single uncalibrated bicycle camera and showing that the same geometry-grounded formulation transfers to a different platform (the Waymo Open Dataset) when re-fit to a new supervision source. A second line of work models driver behavior from vehicle kinematics, the human side of any system that operates around people. I care about open, reproducible research, and I want to take the same approach, building the real structure of a problem into the model, into new domains where cheap sensors have to make reliable measurements. I am currently seeking postdoctoral and research positions.</p>
+<style>
+.work-list { margin: 1.2em 0; }
+.work-row { display: flex; gap: 1.1em; align-items: flex-start; margin-bottom: 1.6em; }
+.work-thumb { flex: 0 0 190px; }
+.work-row.no-thumb .work-body { padding-left: 0; }
+.work-thumb img { width: 100%; height: auto; border: 1px solid #e6e6e6; border-radius: 3px; background: #fff; }
+.work-body { flex: 1 1 auto; }
+.work-body .t { font-weight: 600; }
+.work-body .pub-authors { font-size: 0.85em; color: #666; margin: 0.15em 0 0.4em 0; }
+@media (max-width: 620px) {
+  .work-row { display: block; }
+  .work-thumb { max-width: 320px; margin-bottom: 0.6em; }
+}
+</style>
 
-    <h2 id="research-focus">Research Focus</h2>
-    <p>I work on perception that has to hold up outside the conditions it was built in. In my dissertation that meant grounding measurements in the geometry of how a camera forms an image, and having the classifier withhold a prediction when its confidence was low. Both were useful, in one domain, and both rested on choices I set by hand: the validation rules, the abstention threshold, and the sensor labels needed to re-fit the model on a new platform.</p>
 
-    <p>What interests me now is making those choices less arbitrary. I want to know whether the physics of a scene can drive test-time adaptation to a new platform, in place of the sensor labels my own work relied on, and whether conformal prediction can put a real coverage guarantee behind an abstention threshold I currently set by hand. I am also interested in whether scene geometry can be used to check the spatial claims of large pretrained perception models, which are usually evaluated on clean imagery rather than in the conditions where they get deployed.</p>
+    <p>I am a researcher working on whether what an automated system reports can be relied on by the person who has to act on it. I hold a Ph.D. in Industrial and Systems Engineering and an M.S. in Human-Centered Design and Engineering, both from the University of Michigan-Dearborn, where I was advised by <a href="https://fenggroup.org" target="_blank">Dr. Fred Feng</a>.</p>
+
+    <p>A system's own confidence is a poor guide to whether its output is right, because models are confidently wrong where they have not been before. My work checks outputs against something outside the model: the geometry of how an image was formed, a known standard, or the procedure used to certify the system. Longer term, I want reliability to be something an automated system can demonstrate to the people who depend on it, rather than something inferred from its own confidence.</p>
+
+    <h2 id="publications">Publications</h2>
+    <div class="work-list">
+
+      <div class="work-row">
+        <div class="work-thumb"><img src="/assets/images/work/multi-view-id.jpg" alt="Vehicle classification results across four frames, including unknown labels"></div>
+        <div class="work-body">
+          <div class="t">A Multi-View Vehicle Image Dataset and Two-Stage Pipeline for Fine-Grained Vehicle-Type Recognition at Ground Level</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong>, F. Feng</p>
+          <p>Detection followed by a fine-tuned ViT over six classes defined by injury risk to cyclists. 89% accuracy at held-out sites with no retraining, and an "unknown" output under low confidence rather than a committed label. <em>In preparation, CVPR 2027.</em> <a href="https://doi.org/10.48550/arXiv.2606.05149" target="_blank">Earlier preprint</a> &middot; <a href="https://github.com/fenggroup/vehicle-type-classifier" target="_blank">Code</a></p>
+        </div>
+      </div>
+
+      <div class="work-row">
+        <div class="work-thumb"><img src="/assets/images/work/agg-driving-pipeline.png" alt="Machine learning pipeline from raw kinematics to model selection"></div>
+        <div class="work-body">
+          <div class="t">A Machine Learning Framework to Identify Aggressive Driving Based on Vehicle Kinematics and Driver Pedal Operations</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong>, F. Feng, E. Dai, A. Saini, G. Hu, Y. Zhao</p>
+          <p>Speed-adjusted jerk thresholds jointly optimized with the classifier, because the same jerk magnitude means different things at 20 and 60 mph. 94% accuracy, AUC-ROC 0.971, across 556 trips and seven vehicle models. <em>Submitted, SAE WCX 2027.</em></p>
+        </div>
+      </div>
+
+      <div class="work-row">
+        <div class="work-thumb"><img src="/assets/images/work/overtaking-pipeline.png" alt="Detection, tracking and geometric validation stages"></div>
+        <div class="work-body">
+          <div class="t">A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From a Bicycle</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong>, R. Moustafa, F. Feng</p>
+          <p>Perspective-geometry validation on top of RT-DETR detection and ByteTrack tracking, discarding tracks that are not physically consistent with an overtaking manoeuvre. 98.1% recall with one false positive across 315 events. <em>Submitted, IEEE Transactions on Intelligent Transportation Systems. Poster, TRB Annual Meeting 2026.</em> <a href="https://par.nsf.gov/biblio/10679667" target="_blank">NSF PAR</a> &middot; <a href="https://github.com/fenggroup/vehicle-overtaking-tracker" target="_blank">Code</a></p>
+        </div>
+      </div>
+
+      <div class="work-row no-thumb">
+        <div class="work-body">
+          <div class="t">Vision-Based Lateral Passing Distance Estimation from Bicycle-Mounted Cameras: A Projective Geometry Approach</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong>, F. Feng</p>
+          <p>Estimates how closely a vehicle passes a cyclist from bounding-box geometry, with no camera calibration. 0.126 m MAE; R&sup2; = 0.812 re-fit on the Waymo Open Dataset. <em>In preparation.</em> <a href="/research/">Details</a></p>
+        </div>
+      </div>
+
+      <div class="work-row no-thumb">
+        <div class="work-body">
+          <div class="t">Quantifying Drivers-Overtaking-Bicyclists with Surrogate Safety Measures Derived from High-Resolution Digital Lidar</div>
+          <p class="pub-authors">R. Moustafa, <strong>G. Padmanaban</strong>, F. Feng</p>
+          <p> <em>Transportation Research Board Annual Meeting, 2026.</em> <a href="https://par.nsf.gov/biblio/10679666" target="_blank">NSF PAR</a></p>
+        </div>
+      </div>
+
+      <div class="work-row no-thumb">
+        <div class="work-body">
+          <div class="t">Adaptable Machine Learning and Computer Vision Frameworks for Road Safety: Applications to Driver Behavior and Driver-Bicyclist Interaction Research</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong></p>
+          <p> <em>Ph.D. dissertation, University of Michigan-Dearborn, 2026. Advisor: Dr. Fred Feng.</em></p>
+        </div>
+      </div>
+
+      <div class="work-row">
+        <div class="work-thumb"><img src="/assets/images/work/epa-cycles.png" alt="On-road speed and acceleration profiles against EPA fuel economy cycles"></div>
+        <div class="work-body">
+          <div class="t">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong>, F. Feng, E. Dai, A. Saini, G. Hu, Y. Zhao</p>
+          <p>Whether the standardized cycles used to certify vehicle behaviour represent naturalistic driving. US06 approximates aggressive acceleration but overstates deceleration intensity, and the milder cycles overestimate it as well. <em>WCX SAE World Congress Experience, 2025. SAE Technical Paper 2025-01-8605.</em> <a href="https://doi.org/10.4271/2025-01-8605" target="_blank">DOI</a></p>
+        </div>
+      </div>
+
+      <div class="work-row no-thumb">
+        <div class="work-body">
+          <div class="t">An Autonomous Driving System: Dedicated Vehicle for People with ASD and their Caregivers</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong>, N. P. Jachim, H. Shandi, L. Avetisyan, G. Smith, H. Hammoud, F. Zhou</p>
+          <p> <em>AutomotiveUI '21 Adjunct, ACM, 2021, pp. 142-147.</em> <a href="https://doi.org/10.1145/3473682.3480282" target="_blank">DOI</a></p>
+        </div>
+      </div>
+
+      <div class="work-row no-thumb">
+        <div class="work-body">
+          <div class="t">Computational Human Performance Modeling using Queuing Network in an Open-Source Platform</div>
+          <p class="pub-authors"><strong>G. Padmanaban</strong></p>
+          <p> <em>M.S. thesis, University of Michigan-Dearborn, 2021.</em> <a href="https://deepblue.lib.umich.edu/handle/2027.42/169161/" target="_blank">Deep Blue</a></p>
+        </div>
+      </div>
+
+    </div>
+
 
     <h2 id="news">News</h2>
     <div class="news-list">
         <div class="news-item">
-            <div class="news-date">Jun 2026</div>
-            <div class="news-body">
-                <div class="news-headline">Defended my Ph.D. dissertation, <em>Adaptable Machine Learning and Computer Vision Frameworks for Road Safety: Applications to Driver Behavior and Driver-Bicyclist Interaction Research</em>, at UM-Dearborn, advised by Dr. Fred Feng.</div>
-            </div>
+            <div class="news-date">Aug 2026</div>
+            <div class="news-body"><div class="news-headline">Completed my Ph.D. at the University of Michigan-Dearborn.</div></div>
         </div>
         <div class="news-item">
             <div class="news-date">Jun 2026</div>
             <div class="news-body">
-                <div class="news-headline">Released an open-source two-stage pipeline for injury-risk vehicle body-type classification (RT-DETR plus a fine-tuned ViT), which holds 89% accuracy on held-out sites without retraining and abstains rather than guess when confidence is low.</div>
+                <div class="news-headline">Released an open-source pipeline for injury-risk vehicle classification with confidence-based abstention.</div>
                 <div class="news-links">
                     <a href="https://doi.org/10.48550/arXiv.2606.05149" target="_blank"><i class="fas fa-file-alt"></i> arXiv:2606.05149</a>
                     <a href="https://github.com/fenggroup/vehicle-type-classifier" target="_blank"><i class="fab fa-github"></i> Code</a>
@@ -43,80 +133,14 @@ author_profile: true
         <div class="news-item">
             <div class="news-date">Jan 2026</div>
             <div class="news-body">
-                <div class="news-headline">Presented at the Transportation Research Board (TRB) Annual Meeting, Washington, DC: geometry-informed overtaking detection from a single bicycle-mounted camera (poster), plus a co-authored talk.</div>
-                <div class="news-links">
-                    <a href="https://par.nsf.gov/biblio/10679667" target="_blank"><i class="fas fa-external-link-alt"></i> NSF PAR</a>
-                </div>
+                <div class="news-headline">Presented at the Transportation Research Board Annual Meeting, Washington, DC.</div>
+                <div class="news-links"><a href="https://par.nsf.gov/biblio/10679667" target="_blank"><i class="fas fa-external-link-alt"></i> NSF PAR</a></div>
             </div>
         </div>
         <div class="news-item">
             <div class="news-date">Oct 2025</div>
-            <div class="news-body">
-                <div class="news-headline">Received the Student Visionary Award at the International Forum on Research Excellence (IFoRE '25), Sigma Xi.</div>
-            </div>
-        </div>
-        <div class="news-item">
-            <div class="news-date">Apr 2025</div>
-            <div class="news-body">
-                <div class="news-headline">Presented at the WCX SAE World Congress Experience, Detroit: naturalistic acceleration and deceleration profiles benchmarked against EPA fuel-economy test cycles.</div>
-                <div class="news-links">
-                    <a href="https://www.sae.org/publications/technical-papers/content/2025-01-8605/" target="_blank"><i class="fas fa-external-link-alt"></i> SAE Technical Paper 2025-01-8605</a>
-                </div>
-            </div>
+            <div class="news-body"><div class="news-headline">Student Visionary Award, International Forum on Research Excellence (IFoRE '25), Sigma Xi.</div></div>
         </div>
     </div>
-
-    <h2>Education</h2>
-    <div class="education-list">
-        <div class="education-item">
-            <div class="degree">Ph.D. in Industrial and Systems Engineering</div>
-            <div class="institution">University of Michigan-Dearborn (dissertation defended June 2026; degree Aug 2026)</div>
-            <div class="year">Advisor: Dr. Fred Feng</div>
-        </div>
-        <div class="education-item">
-            <div class="degree">M.S. in Human Centered Design and Engineering</div>
-            <div class="institution">University of Michigan-Dearborn</div>
-            <div class="year">2021</div>
-        </div>
-        <div class="education-item">
-            <div class="degree">B.E. in Computer Science and Engineering</div>
-            <div class="institution">Anna University, India</div>
-            <div class="year">2013</div>
-        </div>
-    </div>
-
-    <h2>Research Interests</h2>
-    <div class="interests-list">
-        <ul>
-            <li class="interest-item"><strong>Methods</strong>: Geometry-informed computer vision • Physics-grounded measurement • Reliability-aware perception (out-of-distribution robustness, confidence-threshold abstention, conformal prediction) • Physics-driven test-time adaptation • Geometric checks on large pretrained perception models • Object detection and tracking • Behavioral modeling from kinematics</li>
-            <li class="interest-item"><strong>Domains (current and exploring)</strong>: Infrastructure and platform-agnostic sensing • Trustworthy perception for human-AI systems • Remote sensing and environmental / climate machine learning • Vulnerable road user and transportation safety</li>
-        </ul>
-    </div>
-
-    <h2>Selected Awards</h2>
-    <div class="awards">
-        <div class="award-item">
-            <div class="award-title">Student Visionary Award</div>
-            <div class="award-details">International Forum on Research Excellence (IFoRE '25), Sigma Xi</div>
-            <div class="award-info">2025</div>
-        </div>
-        <div class="award-item">
-            <div class="award-title">Upsilon Pi Epsilon (UPE) Scholarship</div>
-            <div class="award-details">For academic performance and leadership in the computing community</div>
-            <div class="award-info">2024</div>
-        </div>
-        <div class="award-item">
-            <div class="award-title">Global Finalist, NASA Space Apps Challenge</div>
-            <div class="award-details">DigitwiML: digital twin of C. elegans in space</div>
-            <div class="award-info">2023</div>
-        </div>
-        <div class="award-item">
-            <div class="award-title">Irma M. Wyman Scholar</div>
-            <div class="award-details">Center for the Education of Women (CEW+), University of Michigan</div>
-            <div class="award-info">$11,500 · 2020-2021</div>
-        </div>
-    </div>
-
-    <p style="margin-top:1.5em;"><a href="/assets/files/mathi_cv.pdf" target="_blank">See full CV</a> for the complete list of awards, publications, and service.</p>
 
 </div>
