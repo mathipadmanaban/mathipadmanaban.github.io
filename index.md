@@ -28,9 +28,11 @@ author_profile: true
 </style>
 
 
-    <p>I am a researcher working on whether what an automated system reports can be relied on by the person who has to act on it. I hold a Ph.D. in Industrial and Systems Engineering and an M.S. in Human-Centered Design and Engineering, both from the University of Michigan-Dearborn, where I was advised by <a href="https://fenggroup.org" target="_blank">Dr. Fred Feng</a>.</p>
+    <p>I am a researcher in applied computer vision and machine learning. I hold a Ph.D. in Industrial and Systems Engineering and an M.S. in Human Centered Design and Engineering, both from the University of Michigan-Dearborn, where I was advised by <a href="https://fenggroup.org" target="_blank">Dr. Fred Feng</a>. My dissertation built automated measurement for road safety: estimating how closely vehicles pass cyclists from a single uncalibrated camera, detecting and classifying the vehicles involved, and modelling driver behaviour from vehicle kinematics.</p>
 
-    <p>A system's own confidence is a poor guide to whether its output is right, because models are confidently wrong where they have not been before. My work checks outputs against something outside the model: the geometry of how an image was formed, a known standard, or the procedure used to certify the system. Longer term, I want reliability to be something an automated system can demonstrate to the people who depend on it, rather than something inferred from its own confidence.</p>
+    <p>Two problems kept recurring across those projects. The measurements had to hold up when the camera, the platform or the recording site changed. And the system had to be honest about the cases it could not support, because a confident wrong number is worse than no number when a person acts on it. What I found useful in both was checking the output against something outside the model, usually the geometry of how the image was formed.</p>
+
+    <p>That is the direction I am taking forward: what class of external checks exists, what makes one informative, and whether the evaluations used to decide a system is fit to deploy measure what people actually rely on it for.</p>
 
     <h2 id="publications">Publications</h2>
     <div class="work-list">
