@@ -51,7 +51,7 @@ author_profile: true
         <div class="work-body">
           <div class="t">A Machine Learning Framework to Identify Aggressive Driving Based on Vehicle Kinematics and Driver Pedal Operations</div>
           <p class="pub-authors"><strong>G. Padmanaban</strong>, F. Feng, E. Dai, A. Saini, G. Hu, Y. Zhao</p>
-          <p>Speed-adjusted jerk thresholds jointly optimized with the classifier, because the same jerk magnitude means different things at 20 and 60 mph. 94% accuracy, AUC-ROC 0.971, across 556 trips and seven vehicle models. <em>Submitted, SAE WCX 2027.</em></p>
+          <p>Speed-adjusted jerk thresholds jointly optimized with the classifier, because the same jerk magnitude means different things at 20 and 60 mph. 94% accuracy, AUC-ROC 0.971, across 556 trips and seven vehicle models. <em>Submitted, Engineering Applications of Artificial Intelligence.</em></p>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ author_profile: true
         <div class="work-body">
           <div class="t">Vision-Based Lateral Passing Distance Estimation from Bicycle-Mounted Cameras: A Projective Geometry Approach</div>
           <p class="pub-authors"><strong>G. Padmanaban</strong>, F. Feng</p>
-          <p>Estimates how closely a vehicle passes a cyclist from bounding-box geometry, with no camera calibration. 0.126 m MAE; R&sup2; = 0.812 re-fit on the Waymo Open Dataset. <em>In preparation.</em> <a href="/research/">Details</a></p>
+          <p>Estimates how closely a vehicle passes a cyclist from bounding-box geometry, with no camera calibration. 0.126 m MAE; R&sup2; = 0.812 re-fit on the Waymo Open Dataset. <em>In preparation, IEEE Transactions on Image Processing.</em> <a href="/research/">Details</a></p>
         </div>
       </div>
 
