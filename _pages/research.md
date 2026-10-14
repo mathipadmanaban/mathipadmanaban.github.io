@@ -5,35 +5,33 @@ author_profile: true
 title: "Research"
 ---
 
-<p>I want reliability to be something an automated system can demonstrate to the people who depend on it, rather than something inferred from its own confidence. That means building external checks that hold where models fail, and evaluations that measure what people are actually relying on the system for.</p>
-
-<p>The work below is where I have built and tested that so far. Physical settings are the proving ground, because ground truth still exists in them: the geometry of how a camera formed an image, or a standard a system is supposed to meet, can adjudicate a claim independently of the model that made it. The projects run from measurement systems that report a number a person acts on, through checks that discard outputs the situation rules out and a classifier that declines rather than guess, to a result that asks the same question of a certification test instead of a model.</p>
+<p>I carried out this work in the Feng Group at the University of Michigan-Dearborn, where I completed my Ph.D. in Industrial and Systems Engineering in August 2026. Each project builds a tool for road safety research and tests it against a reference outside the model (an ultrasonic proximity sensor and Waymo LiDAR for passing distance, hand-labelled events for overtaking detection, held-out sites for the vehicle classifier, and the EPA test cycles that vehicles are certified against).</p>
 
 <div class="projects">
   <h2>Doctoral Research</h2>
 
   <div class="project-item">
     <div class="project-title">Vision-Based Lateral Passing Distance Estimation from Bicycle-Mounted Cameras: A Projective Geometry Approach</div>
-    <div class="project-desc">A framework that estimates how closely a vehicle passes a cyclist from 2D bounding-box geometry alone, with no camera calibration. Three features derived from the pinhole camera model absorb the unknown calibration constants when fit to a cheap ultrasonic proximity sensor as the training signal.</div>
+    <div class="project-desc">A framework that estimates how closely a vehicle passes a cyclist from 2D bounding-box geometry. Three features derived from the pinhole camera model are fitted against an ultrasonic proximity sensor, which serves as the training signal.</div>
     <div class="project-contributions">
       <div class="contributions-title">Key results</div>
       <ul>
-        <li>0.126 m mean absolute error (MAPE 8.2%) on 92 naturalistic passing events, leave-one-group-out cross-validation.</li>
-        <li>External validation on the Waymo Open Dataset (re-fit with LiDAR supervision, different platform and range): R&sup2; = 0.812, MAPE 6.6%, across 11,248 detections. The physics-grounded feature design transferred; the model was retrained, not applied zero-shot.</li>
+        <li>0.126 m mean absolute error (MAPE 8.2%) on 92 passing events, leave-one-group-out cross-validation.</li>
+        <li>Re-fitted on the Waymo Open Dataset with LiDAR distances as supervision (a second platform and a longer range): R&sup2; = 0.812, MAPE 6.6%, across 11,248 detections.</li>
       </ul>
     </div>
     <div class="project-links">
-      <em>In preparation</em>
+      <em>Poster accepted, International Cycling Safety Conference 2026; journal manuscript in preparation</em>
     </div>
   </div>
 
   <div class="project-item">
     <div class="project-title">A Geometry-Informed Computer Vision Method for Detecting and Examining Overtaking Vehicles From a Bicycle</div>
-    <div class="project-desc">An automated pipeline that detects vehicle overtaking events from a single rear-facing bicycle-mounted camera, with no multi-sensor rig and no calibration. A three-stage geometric validation module (bearing-angle trend, apparent-size growth, spatial confirmation) enforces perspective-geometry rules on top of RT-DETR detection and ByteTrack tracking, rejecting detections that are physically implausible for an overtaking maneuver.</div>
+    <div class="project-desc">An automated pipeline that detects vehicle overtaking events from a single rear-facing bicycle-mounted camera, with no multi-sensor rig and no calibration. RT-DETR detects vehicles and a multi-object tracker follows each vehicle across frames. Three checks from camera geometry (bearing-angle trend, apparent-size growth, spatial confirmation) then keep only the tracks whose movement matches a vehicle passing from behind.</div>
     <div class="project-contributions">
       <div class="contributions-title">Key results</div>
       <ul>
-        <li>98.1% recall with a single false positive across 315 annotated events.</li>
+        <li>98.1% recall across 315 annotated events.</li>
         <li>Mean advance warning of 2.37 s before passage; 83.2% of events exceed a 1.5 s reaction-time threshold.</li>
       </ul>
     </div>
@@ -43,8 +41,16 @@ title: "Research"
   </div>
 
   <div class="project-item">
+    <div class="project-title">Quantifying Drivers-Overtaking-Bicyclists with Surrogate Safety Measures Derived from High-Resolution Digital Lidar</div>
+    <div class="project-desc">A lab study of how drivers overtake bicyclists, using surrogate safety measures computed from high-resolution LiDAR.</div>
+    <div class="project-links">
+      <em>TRB Annual Meeting 2026 (R. Moustafa, G. Padmanaban, F. Feng)</em> · <a href="https://par.nsf.gov/biblio/10679666" target="_blank"><i class="fas fa-external-link-alt"></i> NSF PAR</a>
+    </div>
+  </div>
+
+  <div class="project-item">
     <div class="project-title">A Multi-View Vehicle Image Dataset and Two-Stage Pipeline for Fine-Grained Vehicle-Type Recognition at Ground Level</div>
-    <div class="project-desc">A two-stage pipeline (RT-DETR detection plus a fine-tuned ViT-Base/16) that classifies passing vehicles into six categories defined by injury risk to cyclists (passenger car, SUV, pickup, minivan, large van, commercial truck), rather than make and model. I assembled and labeled the custom dataset and designed the taxonomy. The classifier abstains and outputs "unknown" when confidence is low, rather than silently misclassifying.</div>
+    <div class="project-desc">A two-stage pipeline (RT-DETR detection plus a fine-tuned ViT-Base/16) that classifies passing vehicles into six categories defined by injury risk to cyclists (passenger car, SUV, pickup, minivan, large van, commercial truck), rather than make and model. I assembled and labeled the custom dataset and designed the taxonomy. The classifier outputs "unknown" when its confidence is low. I have started testing whether conformal prediction can replace the abstention threshold I chose empirically.</div>
     <div class="project-contributions">
       <div class="contributions-title">Key results</div>
       <ul>
@@ -70,13 +76,13 @@ title: "Research"
       </ul>
     </div>
     <div class="project-links">
-      <em>Submitted, SAE WCX 2027</em>
+      <em>Abstract accepted, SAE WCX 2027</em>
     </div>
   </div>
 
   <div class="project-item">
     <div class="project-title">A Comparative Analysis of Acceleration and Deceleration Profiles for Aggressive Driving Styles and Fuel Economy Test Cycles</div>
-    <div class="project-desc">The same reliability question, asked of a test procedure instead of a model: does the standardized cycle used to certify vehicle behaviour represent the behaviour it certifies? A speed-segmented characterization of real-world aggressive and non-aggressive driving, benchmarked against four EPA fuel-economy test cycles. The US06 cycle approximates aggressive acceleration but substantially overstates aggressive deceleration intensity; all milder cycles also overestimate deceleration relative to naturalistic driving, with implications for powertrain calibration and fuel-economy labeling.</div>
+    <div class="project-desc">The same reliability question, asked of a test procedure instead of a model: does the standardized cycle used to certify vehicles represent the driving it certifies? A speed-segmented characterization of real-world aggressive and non-aggressive driving, benchmarked against four EPA fuel-economy test cycles. The US06 cycle approximates aggressive acceleration but substantially overstates aggressive deceleration intensity; all milder cycles also overestimate deceleration relative to on-road driving, with implications for powertrain calibration and fuel-economy labeling.</div>
     <div class="project-links">
       <a href="https://www.sae.org/publications/technical-papers/content/2025-01-8605/" target="_blank"><i class="fas fa-external-link-alt"></i> SAE Technical Paper 2025-01-8605</a>
       <em>WCX SAE World Congress Experience, 2025</em>

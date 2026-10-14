@@ -3,7 +3,7 @@ locale: "en-US"
 title: "Gandhimathi Padmanaban"
 subtitle: ""
 name: "Gandhimathi Padmanaban"
-description: "Researcher working on whether what an automated system reports can be relied on by the person who has to act on it. Ph.D., Industrial and Systems Engineering, University of Michigan-Dearborn."
+description: "I build and evaluate adaptable AI systems that are driven and constrained by physical measurements from multimodal data in safety-critical settings involving human interaction. Ph.D., Industrial and Systems Engineering, University of Michigan-Dearborn."
 url: "https://mathipadmanaban.github.io"
 repository: "mathipadmanaban/mathipadmanaban.github.io"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -20,6 +20,8 @@ include:
 
 exclude:
   - _backup_2026-09-05
+  - _retired_2026-10-13
+  - _to_delete
   - OPTIONAL_ENHANCEMENTS.md
   - README.md
   - Gemfile
@@ -35,7 +37,7 @@ sass:
 author:
   name: "Gandhimathi Padmanaban"
   avatar: "/assets/images/mathi-profile.png"
-  bio: "Human-Machine Systems · Reliability of Automated Systems · Applied AI"
+  bio: "Computer Vision · Machine Learning · Human-Centered Automation"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
